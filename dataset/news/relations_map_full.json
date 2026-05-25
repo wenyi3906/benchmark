@@ -1,0 +1,1508 @@
+{
+    "Abduct,_hijack,_or_take_hostage": {
+        "verb": "abduct, hijack, or take hostage",
+        "past_verb": "abducted, hijacked, or took hostage",
+        "noun": "abduction or hostage-taking",
+        "ing_form": "abducting, hijacking, or taking hostage"
+    },
+    "Accede_to_demands_for_change_in_institutions,_regime": {
+        "verb": "accede to demands for change in institutions or regime from",
+        "past_verb": "acceded to demands for change in institutions or regime from",
+        "noun": "accession to regime change demands",
+        "ing_form": "acceding to demands for change in institutions or regime from"
+    },
+    "Accede_to_demands_for_change_in_leadership": {
+        "verb": "accede to demands for change in leadership from",
+        "past_verb": "acceded to demands for change in leadership from",
+        "noun": "accession to leadership change demands",
+        "ing_form": "acceding to demands for change in leadership from"
+    },
+    "Accede_to_demands_for_change_in_policy": {
+        "verb": "accede to demands for change in policy from",
+        "past_verb": "acceded to demands for change in policy from",
+        "noun": "accession to policy change demands",
+        "ing_form": "acceding to demands for change in policy from"
+    },
+    "Accede_to_demands_for_rights": {
+        "verb": "accede to demands for rights from",
+        "past_verb": "acceded to demands for rights from",
+        "noun": "accession to demands for rights",
+        "ing_form": "acceding to demands for rights from"
+    },
+    "Accede_to_requests_or_demands_for_political_reform": {
+        "verb": "accede to requests or demands for political reform from",
+        "past_verb": "acceded to requests or demands for political reform from",
+        "noun": "accession to political reform demands",
+        "ing_form": "acceding to requests or demands for political reform from"
+    },
+    "Accuse": {
+        "verb": "level accusations against",
+        "past_verb": "leveled accusations against",
+        "noun": "accusation",
+        "ing_form": "leveling accusations against"
+    },
+    "Accuse_of_aggression": {
+        "verb": "level accusations of aggression against",
+        "past_verb": "leveled accusations of aggression against",
+        "noun": "accusations of aggression",
+        "ing_form": "leveling accusations of aggression against"
+    },
+    "Accuse_of_crime,_corruption": {
+        "verb": "level accusations of crime or corruption against",
+        "past_verb": "leveled accusations of crime or corruption against",
+        "noun": "accusations of crime or corruption",
+        "ing_form": "leveling accusations of crime or corruption against"
+    },
+    "Accuse_of_espionage,_treason": {
+        "verb": "level accusations of espionage or treason against",
+        "past_verb": "leveled accusations of espionage or treason against",
+        "noun": "accusations of espionage or treason",
+        "ing_form": "leveling accusations of espionage or treason against"
+    },
+    "Accuse_of_human_rights_abuses": {
+        "verb": "level accusations of human rights abuses against",
+        "past_verb": "leveled accusations of human rights abuses against",
+        "noun": "accusations of human rights abuses",
+        "ing_form": "leveling accusations of human rights abuses against"
+    },
+    "Accuse_of_war_crimes": {
+        "verb": "level accusations of war crimes against",
+        "past_verb": "leveled accusations of war crimes against",
+        "noun": "accusations of war crimes",
+        "ing_form": "leveling accusations of war crimes against"
+    },
+    "Acknowledge_or_claim_responsibility": {
+        "verb": "claim responsibility for actions targeting",
+        "past_verb": "claimed responsibility for actions targeting",
+        "noun": "claim of responsibility",
+        "ing_form": "claiming responsibility for actions targeting"
+    },
+    "Allow_humanitarian_access": {
+        "verb": "allow humanitarian access to",
+        "past_verb": "allowed humanitarian access to",
+        "noun": "humanitarian access allowance",
+        "ing_form": "allowing humanitarian access to"
+    },
+    "Apologize": {
+        "verb": "issue an apology to",
+        "past_verb": "issued an apology to",
+        "noun": "apology",
+        "ing_form": "issuing an apology to"
+    },
+    "Appeal_for_aid": {
+        "verb": "appeal for aid from",
+        "past_verb": "appealed for aid from",
+        "noun": "appeal for aid",
+        "ing_form": "appealing for aid from"
+    },
+    "Appeal_for_change_in_institutions,_regime": {
+        "verb": "appeal for a change in institutions or regime to",
+        "past_verb": "appealed for a change in institutions or regime to",
+        "noun": "appeal for regime change",
+        "ing_form": "appealing for a change in institutions or regime to"
+    },
+    "Appeal_for_change_in_leadership": {
+        "verb": "appeal for a change in leadership to",
+        "past_verb": "appealed for a change in leadership to",
+        "noun": "appeal for leadership change",
+        "ing_form": "appealing for a change in leadership to"
+    },
+    "Appeal_for_de-escalation_of_military_engagement": {
+        "verb": "appeal for a de-escalation of military engagement to",
+        "past_verb": "appealed for a de-escalation of military engagement to",
+        "noun": "appeal for military de-escalation",
+        "ing_form": "appealing for a de-escalation of military engagement to"
+    },
+    "Appeal_for_diplomatic_cooperation_(such_as_policy_support)": {
+        "verb": "appeal for diplomatic cooperation from",
+        "past_verb": "appealed for diplomatic cooperation from",
+        "noun": "appeal for diplomatic cooperation",
+        "ing_form": "appealing for diplomatic cooperation from"
+    },
+    "Appeal_for_easing_of_administrative_sanctions": {
+        "verb": "appeal for the easing of administrative sanctions from",
+        "past_verb": "appealed for the easing of administrative sanctions from",
+        "noun": "appeal for easing of administrative sanctions",
+        "ing_form": "appealing for the easing of administrative sanctions from"
+    },
+    "Appeal_for_easing_of_economic_sanctions,_boycott,_or_embargo": {
+        "verb": "appeal for the easing of economic sanctions, boycotts, or embargoes from",
+        "past_verb": "appealed for the easing of economic sanctions, boycotts, or embargoes from",
+        "noun": "appeal for easing of economic sanctions",
+        "ing_form": "appealing for the easing of economic sanctions, boycotts, or embargoes from"
+    },
+    "Appeal_for_easing_of_political_dissent": {
+        "verb": "appeal for the easing of political dissent from",
+        "past_verb": "appealed for the easing of political dissent from",
+        "noun": "appeal for easing of political dissent",
+        "ing_form": "appealing for the easing of political dissent from"
+    },
+    "Appeal_for_economic_aid": {
+        "verb": "appeal for economic aid from",
+        "past_verb": "appealed for economic aid from",
+        "noun": "appeal for economic aid",
+        "ing_form": "appealing for economic aid from"
+    },
+    "Appeal_for_economic_cooperation": {
+        "verb": "appeal for economic cooperation from",
+        "past_verb": "appealed for economic cooperation from",
+        "noun": "appeal for economic cooperation",
+        "ing_form": "appealing for economic cooperation from"
+    },
+    "Appeal_for_humanitarian_aid": {
+        "verb": "appeal for humanitarian aid from",
+        "past_verb": "appealed for humanitarian aid from",
+        "noun": "appeal for humanitarian aid",
+        "ing_form": "appealing for humanitarian aid from"
+    },
+    "Appeal_for_intelligence": {
+        "verb": "appeal for intelligence sharing from",
+        "past_verb": "appealed for intelligence sharing from",
+        "noun": "appeal for intelligence",
+        "ing_form": "appealing for intelligence sharing from"
+    },
+    "Appeal_for_judicial_cooperation": {
+        "verb": "appeal for judicial cooperation from",
+        "past_verb": "appealed for judicial cooperation from",
+        "noun": "appeal for judicial cooperation",
+        "ing_form": "appealing for judicial cooperation from"
+    },
+    "Appeal_for_material_cooperation": {
+        "verb": "appeal for material cooperation from",
+        "past_verb": "appealed for material cooperation from",
+        "noun": "appeal for material cooperation",
+        "ing_form": "appealing for material cooperation from"
+    },
+    "Appeal_for_military_aid": {
+        "verb": "appeal for military aid from",
+        "past_verb": "appealed for military aid from",
+        "noun": "appeal for military aid",
+        "ing_form": "appealing for military aid from"
+    },
+    "Appeal_for_military_cooperation": {
+        "verb": "appeal for military cooperation from",
+        "past_verb": "appealed for military cooperation from",
+        "noun": "appeal for military cooperation",
+        "ing_form": "appealing for military cooperation from"
+    },
+    "Appeal_for_military_protection_or_peacekeeping": {
+        "verb": "appeal for military protection or peacekeeping from",
+        "past_verb": "appealed for military protection or peacekeeping from",
+        "noun": "appeal for military protection",
+        "ing_form": "appealing for military protection or peacekeeping from"
+    },
+    "Appeal_for_policy_change": {
+        "verb": "direct an appeal for a policy change to",
+        "past_verb": "directed an appeal for a policy change to",
+        "noun": "appeal for policy change",
+        "ing_form": "directing an appeal for a policy change to"
+    },
+    "Appeal_for_political_reform": {
+        "verb": "direct an appeal for political reform to",
+        "past_verb": "directed an appeal for political reform to",
+        "noun": "appeal for political reform",
+        "ing_form": "directing an appeal for political reform to"
+    },
+    "Appeal_for_release_of_persons_or_property": {
+        "verb": "appeal for the release of persons or property from",
+        "past_verb": "appealed for the release of persons or property from",
+        "noun": "appeal for release of persons or property",
+        "ing_form": "appealing for the release of persons or property from"
+    },
+    "Appeal_for_rights": {
+        "verb": "direct an appeal for rights to",
+        "past_verb": "directed an appeal for rights to",
+        "noun": "appeal for rights",
+        "ing_form": "directing an appeal for rights to"
+    },
+    "Appeal_for_target_to_allow_international_involvement_(non-mediation)": {
+        "verb": "direct an appeal to allow international involvement to",
+        "past_verb": "directed an appeal to allow international involvement to",
+        "noun": "appeal for international involvement",
+        "ing_form": "directing an appeal to allow international involvement to"
+    },
+    "Appeal_to_engage_in_or_accept_mediation": {
+        "verb": "appeal to engage in or accept mediation with",
+        "past_verb": "appealed to engage in or accept mediation with",
+        "noun": "appeal for mediation",
+        "ing_form": "appealing to engage in or accept mediation with"
+    },
+    "Appeal_to_others_to_meet_or_negotiate": {
+        "verb": "appeal to meet or negotiate with",
+        "past_verb": "appealed to meet or negotiate with",
+        "noun": "appeal to meet or negotiate",
+        "ing_form": "appealing to meet or negotiate with"
+    },
+    "Appeal_to_others_to_settle_dispute": {
+        "verb": "appeal to settle a dispute with",
+        "past_verb": "appealed to settle a dispute with",
+        "noun": "appeal to settle dispute",
+        "ing_form": "appealing to settle a dispute with"
+    },
+    "Appeal_to_yield": {
+        "verb": "direct an appeal to yield to",
+        "past_verb": "directed an appeal to yield to",
+        "noun": "appeal to yield",
+        "ing_form": "directing an appeal to yield to"
+    },
+    "Arrest,_detain,_or_charge_with_legal_action": {
+        "verb": "initiate an arrest, detention, or legal charge against",
+        "past_verb": "initiated an arrest, detention, or legal charge against",
+        "noun": "arrest, detention, or legal action",
+        "ing_form": "initiating an arrest, detention, or legal charge against"
+    },
+    "Assassinate": {
+        "verb": "carry out the assassination of",
+        "past_verb": "carried out the assassination of",
+        "noun": "assassination",
+        "ing_form": "carrying out the assassination of"
+    },
+    "Attempt_to_assassinate": {
+        "verb": "make an assassination attempt against",
+        "past_verb": "made an assassination attempt against",
+        "noun": "assassination attempt",
+        "ing_form": "making an assassination attempt against"
+    },
+    "Ban_political_parties_or_politicians": {
+        "verb": "impose a ban on political parties or politicians from",
+        "past_verb": "imposed a ban on political parties or politicians from",
+        "noun": "ban on political parties or politicians",
+        "ing_form": "imposing a ban on political parties or politicians from"
+    },
+    "Bring_lawsuit_against": {
+        "verb": "bring a lawsuit against",
+        "past_verb": "brought a lawsuit against",
+        "noun": "lawsuit",
+        "ing_form": "bringing a lawsuit against"
+    },
+    "Carry_out_roadside_bombing": {
+        "verb": "carry out a roadside bombing against",
+        "past_verb": "carried out a roadside bombing against",
+        "noun": "roadside bombing",
+        "ing_form": "carrying out a roadside bombing against"
+    },
+    "Carry_out_suicide_bombing": {
+        "verb": "carry out a suicide bombing against",
+        "past_verb": "carried out a suicide bombing against",
+        "noun": "suicide bombing",
+        "ing_form": "carrying out a suicide bombing against"
+    },
+    "Coerce": {
+        "verb": "apply coercion against",
+        "past_verb": "applied coercion against",
+        "noun": "coercion",
+        "ing_form": "applying coercion against"
+    },
+    "Complain_officially": {
+        "verb": "lodge an official complaint against",
+        "past_verb": "lodged an official complaint against",
+        "noun": "official complaint",
+        "ing_form": "lodging an official complaint against"
+    },
+    "Conduct_hunger_strike": {
+        "verb": "conduct a hunger strike directed at",
+        "past_verb": "conducted a hunger strike directed at",
+        "noun": "hunger strike",
+        "ing_form": "conducting a hunger strike directed at"
+    },
+    "Conduct_strike_or_boycott": {
+        "verb": "conduct a strike or boycott against",
+        "past_verb": "conducted a strike or boycott against",
+        "noun": "strike or boycott",
+        "ing_form": "conducting a strike or boycott against"
+    },
+    "Conduct_strike_or_boycott_for_leadership_change": {
+        "verb": "conduct a strike or boycott for leadership change against",
+        "past_verb": "conducted a strike or boycott for leadership change against",
+        "noun": "strike or boycott for leadership change",
+        "ing_form": "conducting a strike or boycott for leadership change against"
+    },
+    "Conduct_suicide,_car,_or_other_non-military_bombing": {
+        "verb": "conduct a suicide, car, or other non-military bombing against",
+        "past_verb": "conducted a suicide, car, or other non-military bombing against",
+        "noun": "non-military bombing",
+        "ing_form": "conducting a suicide, car, or other non-military bombing against"
+    },
+    "Confiscate_property": {
+        "verb": "confiscate property from",
+        "past_verb": "confiscated property from",
+        "noun": "property confiscation",
+        "ing_form": "confiscating property from"
+    },
+    "Consider_policy_option": {
+        "verb": "consider a policy option regarding",
+        "past_verb": "considered a policy option regarding",
+        "noun": "policy consideration",
+        "ing_form": "considering a policy option regarding"
+    },
+    "Consult": {
+        "verb": "hold a consultation with",
+        "past_verb": "held a consultation with",
+        "noun": "consultation",
+        "ing_form": "holding a consultation with"
+    },
+    "Cooperate_economically": {
+        "verb": "engage in economic cooperation with",
+        "past_verb": "engaged in economic cooperation with",
+        "noun": "economic cooperation",
+        "ing_form": "engaging in economic cooperation with"
+    },
+    "Cooperate_militarily": {
+        "verb": "engage in military cooperation with",
+        "past_verb": "engaged in military cooperation with",
+        "noun": "military cooperation",
+        "ing_form": "engaging in military cooperation with"
+    },
+    "Criticize_or_denounce": {
+        "verb": "level criticism or denunciation against",
+        "past_verb": "leveled criticism or denunciation against",
+        "noun": "criticism or denunciation",
+        "ing_form": "leveling criticism or denunciation against"
+    },
+    "Declare_truce,_ceasefire": {
+        "verb": "declare a truce or ceasefire with",
+        "past_verb": "declared a truce or ceasefire with",
+        "noun": "declaration of a truce or ceasefire",
+        "ing_form": "declaring a truce or ceasefire with"
+    },
+    "Decline_comment": {
+        "verb": "decline to comment regarding",
+        "past_verb": "declined to comment regarding",
+        "noun": "declination of comment",
+        "ing_form": "declining to comment regarding"
+    },
+    "Defend_verbally": {
+        "verb": "issue a verbal defense of",
+        "past_verb": "issued a verbal defense of",
+        "noun": "verbal defense",
+        "ing_form": "issuing a verbal defense of"
+    },
+    "Defy_norms,_law": {
+        "verb": "defy the norms or laws of",
+        "past_verb": "defied the norms or laws of",
+        "noun": "defiance of norms or laws",
+        "ing_form": "defying the norms or laws of"
+    },
+    "Demand": {
+        "verb": "issue a demand to",
+        "past_verb": "issued a demand to",
+        "noun": "demand",
+        "ing_form": "issuing a demand to"
+    },
+    "Demand_change_in_institutions,_regime": {
+        "verb": "demand a change in institutions or regime from",
+        "past_verb": "demanded a change in institutions or regime from",
+        "noun": "demand for regime change",
+        "ing_form": "demanding a change in institutions or regime from"
+    },
+    "Demand_change_in_leadership": {
+        "verb": "demand a change in leadership from",
+        "past_verb": "demanded a change in leadership from",
+        "noun": "demand for leadership change",
+        "ing_form": "demanding a change in leadership from"
+    },
+    "Demand_de-escalation_of_military_engagement": {
+        "verb": "demand a de-escalation of military engagement from",
+        "past_verb": "demanded a de-escalation of military engagement from",
+        "noun": "demand for military de-escalation",
+        "ing_form": "demanding a de-escalation of military engagement from"
+    },
+    "Demand_diplomatic_cooperation_(such_as_policy_support)": {
+        "verb": "demand diplomatic cooperation from",
+        "past_verb": "demanded diplomatic cooperation from",
+        "noun": "demand for diplomatic cooperation",
+        "ing_form": "demanding diplomatic cooperation from"
+    },
+    "Demand_easing_of_administrative_sanctions": {
+        "verb": "demand the easing of administrative sanctions from",
+        "past_verb": "demanded the easing of administrative sanctions from",
+        "noun": "demand for easing of administrative sanctions",
+        "ing_form": "demanding the easing of administrative sanctions from"
+    },
+    "Demand_easing_of_political_dissent": {
+        "verb": "demand the easing of political dissent from",
+        "past_verb": "demanded the easing of political dissent from",
+        "noun": "demand for easing of political dissent",
+        "ing_form": "demanding the easing of political dissent from"
+    },
+    "Demand_economic_aid": {
+        "verb": "demand economic aid from",
+        "past_verb": "demanded economic aid from",
+        "noun": "demand for economic aid",
+        "ing_form": "demanding economic aid from"
+    },
+    "Demand_economic_cooperation": {
+        "verb": "demand economic cooperation from",
+        "past_verb": "demanded economic cooperation from",
+        "noun": "demand for economic cooperation",
+        "ing_form": "demanding economic cooperation from"
+    },
+    "Demand_humanitarian_aid": {
+        "verb": "demand humanitarian aid from",
+        "past_verb": "demanded humanitarian aid from",
+        "noun": "demand for humanitarian aid",
+        "ing_form": "demanding humanitarian aid from"
+    },
+    "Demand_intelligence_cooperation": {
+        "verb": "demand intelligence cooperation from",
+        "past_verb": "demanded intelligence cooperation from",
+        "noun": "demand for intelligence cooperation",
+        "ing_form": "demanding intelligence cooperation from"
+    },
+    "Demand_judicial_cooperation": {
+        "verb": "demand judicial cooperation from",
+        "past_verb": "demanded judicial cooperation from",
+        "noun": "demand for judicial cooperation",
+        "ing_form": "demanding judicial cooperation from"
+    },
+    "Demand_material_aid": {
+        "verb": "demand material aid from",
+        "past_verb": "demanded material aid from",
+        "noun": "demand for material aid",
+        "ing_form": "demanding material aid from"
+    },
+    "Demand_material_cooperation": {
+        "verb": "demand material cooperation from",
+        "past_verb": "demanded material cooperation from",
+        "noun": "demand for material cooperation",
+        "ing_form": "demanding material cooperation from"
+    },
+    "Demand_mediation": {
+        "verb": "demand mediation from",
+        "past_verb": "demanded mediation from",
+        "noun": "demand for mediation",
+        "ing_form": "demanding mediation from"
+    },
+    "Demand_meeting,_negotiation": {
+        "verb": "demand a meeting or negotiation with",
+        "past_verb": "demanded a meeting or negotiation with",
+        "noun": "demand for a meeting or negotiation",
+        "ing_form": "demanding a meeting or negotiation with"
+    },
+    "Demand_military_aid": {
+        "verb": "demand military aid from",
+        "past_verb": "demanded military aid from",
+        "noun": "demand for military aid",
+        "ing_form": "demanding military aid from"
+    },
+    "Demand_policy_change": {
+        "verb": "demand a policy change from",
+        "past_verb": "demanded a policy change from",
+        "noun": "demand for policy change",
+        "ing_form": "demanding a policy change from"
+    },
+    "Demand_political_reform": {
+        "verb": "demand political reform from",
+        "past_verb": "demanded political reform from",
+        "noun": "demand for political reform",
+        "ing_form": "demanding political reform from"
+    },
+    "Demand_release_of_persons_or_property": {
+        "verb": "demand the release of persons or property from",
+        "past_verb": "demanded the release of persons or property from",
+        "noun": "demand for release of persons or property",
+        "ing_form": "demanding the release of persons or property from"
+    },
+    "Demand_rights": {
+        "verb": "direct a demand for rights to",
+        "past_verb": "directed a demand for rights to",
+        "noun": "demand for rights",
+        "ing_form": "directing a demand for rights to"
+    },
+    "Demand_settling_of_dispute": {
+        "verb": "demand the settling of a dispute with",
+        "past_verb": "demanded the settling of a dispute with",
+        "noun": "demand for settling of dispute",
+        "ing_form": "demanding the settling of a dispute with"
+    },
+    "Demand_that_target_yields": {
+        "verb": "direct a demand to yield to",
+        "past_verb": "directed a demand to yield to",
+        "noun": "demand to yield",
+        "ing_form": "directing a demand to yield to"
+    },
+    "Demobilize_armed_forces": {
+        "verb": "initiate the demobilization of armed forces directed at",
+        "past_verb": "initiated the demobilization of armed forces directed at",
+        "noun": "demobilization of armed forces",
+        "ing_form": "initiating the demobilization of armed forces directed at"
+    },
+    "Demonstrate_for_leadership_change": {
+        "verb": "conduct a demonstration for leadership change against",
+        "past_verb": "conducted a demonstration for leadership change against",
+        "noun": "demonstration for leadership change",
+        "ing_form": "conducting a demonstration for leadership change against"
+    },
+    "Demonstrate_for_policy_change": {
+        "verb": "conduct a demonstration for policy change against",
+        "past_verb": "conducted a demonstration for policy change against",
+        "noun": "demonstration for policy change",
+        "ing_form": "conducting a demonstration for policy change against"
+    },
+    "Demonstrate_military_or_police_power": {
+        "verb": "demonstrate military or police power against",
+        "past_verb": "demonstrated military or police power against",
+        "noun": "demonstration of military or police power",
+        "ing_form": "demonstrating military or police power against"
+    },
+    "Demonstrate_or_rally": {
+        "verb": "conduct a demonstration or rally directed at",
+        "past_verb": "conducted a demonstration or rally directed at",
+        "noun": "demonstration or rally",
+        "ing_form": "conducting a demonstration or rally directed at"
+    },
+    "Deny_responsibility": {
+        "verb": "deny responsibility for actions concerning",
+        "past_verb": "denied responsibility for actions concerning",
+        "noun": "denial of responsibility",
+        "ing_form": "denying responsibility for actions concerning"
+    },
+    "Destroy_property": {
+        "verb": "destroy property belonging to",
+        "past_verb": "destroyed property belonging to",
+        "noun": "property destruction",
+        "ing_form": "destroying property belonging to"
+    },
+    "Detonate_nuclear_weapons": {
+        "verb": "detonate nuclear weapons targeting",
+        "past_verb": "detonated nuclear weapons targeting",
+        "noun": "nuclear weapon detonation",
+        "ing_form": "detonating nuclear weapons targeting"
+    },
+    "Discuss_by_telephone": {
+        "verb": "hold a telephone discussion with",
+        "past_verb": "held a telephone discussion with",
+        "noun": "telephone discussion",
+        "ing_form": "holding a telephone discussion with"
+    },
+    "Ease_administrative_sanctions": {
+        "verb": "ease administrative sanctions against",
+        "past_verb": "eased administrative sanctions against",
+        "noun": "easing of administrative sanctions",
+        "ing_form": "easing administrative sanctions against"
+    },
+    "Ease_ban_on_political_parties_or_politicians": {
+        "verb": "ease a ban on political parties or politicians from",
+        "past_verb": "eased a ban on political parties or politicians from",
+        "noun": "easing of ban on political parties or politicians",
+        "ing_form": "easing a ban on political parties or politicians from"
+    },
+    "Ease_curfew": {
+        "verb": "ease a curfew affecting",
+        "past_verb": "eased a curfew affecting",
+        "noun": "curfew easing",
+        "ing_form": "easing a curfew affecting"
+    },
+    "Ease_economic_sanctions,_boycott,_embargo": {
+        "verb": "ease economic sanctions, boycotts, or embargoes against",
+        "past_verb": "eased economic sanctions, boycotts, or embargoes against",
+        "noun": "easing of economic sanctions",
+        "ing_form": "easing economic sanctions, boycotts, or embargoes against"
+    },
+    "Ease_military_blockade": {
+        "verb": "ease a military blockade against",
+        "past_verb": "eased a military blockade against",
+        "noun": "easing of a military blockade",
+        "ing_form": "easing a military blockade against"
+    },
+    "Ease_political_dissent": {
+        "verb": "ease political dissent directed at",
+        "past_verb": "eased political dissent directed at",
+        "noun": "easing of political dissent",
+        "ing_form": "easing political dissent directed at"
+    },
+    "Ease_restrictions_on_political_freedoms": {
+        "verb": "ease restrictions on political freedoms affecting",
+        "past_verb": "eased restrictions on political freedoms affecting",
+        "noun": "easing of restrictions on political freedoms",
+        "ing_form": "easing restrictions on political freedoms affecting"
+    },
+    "Ease_state_of_emergency_or_martial_law": {
+        "verb": "ease a state of emergency or martial law affecting",
+        "past_verb": "eased a state of emergency or martial law affecting",
+        "noun": "easing of a state of emergency or martial law",
+        "ing_form": "easing a state of emergency or martial law affecting"
+    },
+    "Employ_aerial_weapons": {
+        "verb": "employ aerial weapons against",
+        "past_verb": "employed aerial weapons against",
+        "noun": "employment of aerial weapons",
+        "ing_form": "employing aerial weapons against"
+    },
+    "Engage_in_diplomatic_cooperation": {
+        "verb": "engage in diplomatic cooperation with",
+        "past_verb": "engaged in diplomatic cooperation with",
+        "noun": "diplomatic cooperation",
+        "ing_form": "engaging in diplomatic cooperation with"
+    },
+    "Engage_in_ethnic_cleansing": {
+        "verb": "engage in ethnic cleansing directed at",
+        "past_verb": "engaged in ethnic cleansing directed at",
+        "noun": "ethnic cleansing",
+        "ing_form": "engaging in ethnic cleansing directed at"
+    },
+    "Engage_in_judicial_cooperation": {
+        "verb": "engage in judicial cooperation with",
+        "past_verb": "engaged in judicial cooperation with",
+        "noun": "judicial cooperation",
+        "ing_form": "engaging in judicial cooperation with"
+    },
+    "Engage_in_mass_expulsion": {
+        "verb": "engage in the mass expulsion of",
+        "past_verb": "engaged in the mass expulsion of",
+        "noun": "mass expulsion",
+        "ing_form": "engaging in the mass expulsion of"
+    },
+    "Engage_in_mass_killings": {
+        "verb": "engage in mass killings directed at",
+        "past_verb": "engaged in mass killings directed at",
+        "noun": "mass killings",
+        "ing_form": "engaging in mass killings directed at"
+    },
+    "Engage_in_material_cooperation": {
+        "verb": "engage in material cooperation with",
+        "past_verb": "engaged in material cooperation with",
+        "noun": "material cooperation",
+        "ing_form": "engaging in material cooperation with"
+    },
+    "Engage_in_negotiation": {
+        "verb": "engage in negotiations with",
+        "past_verb": "engaged in negotiations with",
+        "noun": "negotiation",
+        "ing_form": "engaging in negotiations with"
+    },
+    "Engage_in_political_dissent": {
+        "verb": "engage in political dissent against",
+        "past_verb": "engaged in political dissent against",
+        "noun": "political dissent",
+        "ing_form": "engaging in political dissent against"
+    },
+    "Engage_in_symbolic_act": {
+        "verb": "engage in a symbolic act concerning",
+        "past_verb": "engaged in a symbolic act concerning",
+        "noun": "symbolic act",
+        "ing_form": "engaging in a symbolic act concerning"
+    },
+    "Engage_in_violent_protest_for_leadership_change": {
+        "verb": "engage in violent protests for leadership change against",
+        "past_verb": "engaged in violent protests for leadership change against",
+        "noun": "violent protest for leadership change",
+        "ing_form": "engaging in violent protests for leadership change against"
+    },
+    "Engage_in_violent_protest_for_policy_change": {
+        "verb": "engage in violent protests for policy change against",
+        "past_verb": "engaged in violent protests for policy change against",
+        "noun": "violent protest for policy change",
+        "ing_form": "engaging in violent protests for policy change against"
+    },
+    "Expel_or_deport_individuals": {
+        "verb": "expel or deport individuals belonging to",
+        "past_verb": "expelled or deported individuals belonging to",
+        "noun": "expulsion or deportation of individuals",
+        "ing_form": "expelling or deporting individuals belonging to"
+    },
+    "Expel_or_withdraw": {
+        "verb": "execute an expulsion or withdrawal from",
+        "past_verb": "executed an expulsion or withdrawal from",
+        "noun": "expulsion or withdrawal",
+        "ing_form": "executing an expulsion or withdrawal from"
+    },
+    "Expel_or_withdraw_peacekeepers": {
+        "verb": "expel or withdraw peacekeepers from",
+        "past_verb": "expelled or withdrew peacekeepers from",
+        "noun": "expulsion or withdrawal of peacekeepers",
+        "ing_form": "expelling or withdrawing peacekeepers from"
+    },
+    "Express_accord": {
+        "verb": "express accord with",
+        "past_verb": "expressed accord with",
+        "noun": "expression of accord",
+        "ing_form": "expressing accord with"
+    },
+    "Express_intent_to_accept_mediation": {
+        "verb": "express intent to accept mediation with",
+        "past_verb": "expressed intent to accept mediation with",
+        "noun": "expression of intent to accept mediation",
+        "ing_form": "expressing intent to accept mediation with"
+    },
+    "Express_intent_to_allow_international_involvement_(non-mediation)": {
+        "verb": "express intent to allow international involvement from",
+        "past_verb": "expressed intent to allow international involvement from",
+        "noun": "expression of intent for international involvement",
+        "ing_form": "expressing intent to allow international involvement from"
+    },
+    "Express_intent_to_change_institutions,_regime": {
+        "verb": "express intent to change the institutions or regime of",
+        "past_verb": "expressed intent to change the institutions or regime of",
+        "noun": "expression of intent for regime change",
+        "ing_form": "expressing intent to change the institutions or regime of"
+    },
+    "Express_intent_to_change_leadership": {
+        "verb": "express intent to change the leadership of",
+        "past_verb": "expressed intent to change the leadership of",
+        "noun": "expression of intent for leadership change",
+        "ing_form": "expressing intent to change the leadership of"
+    },
+    "Express_intent_to_change_policy": {
+        "verb": "express intent to change policy towards",
+        "past_verb": "expressed intent to change policy towards",
+        "noun": "expression of intent for policy change",
+        "ing_form": "expressing intent to change policy towards"
+    },
+    "Express_intent_to_cooperate": {
+        "verb": "express intent to cooperate with",
+        "past_verb": "expressed intent to cooperate with",
+        "noun": "expression of intent to cooperate",
+        "ing_form": "expressing intent to cooperate with"
+    },
+    "Express_intent_to_cooperate_economically": {
+        "verb": "express intent to cooperate economically with",
+        "past_verb": "expressed intent to cooperate economically with",
+        "noun": "expression of intent for economic cooperation",
+        "ing_form": "expressing intent to cooperate economically with"
+    },
+    "Express_intent_to_cooperate_militarily": {
+        "verb": "express intent to cooperate militarily with",
+        "past_verb": "expressed intent to cooperate militarily with",
+        "noun": "expression of intent for military cooperation",
+        "ing_form": "expressing intent to cooperate militarily with"
+    },
+    "Express_intent_to_cooperate_on_intelligence": {
+        "verb": "express intent to cooperate on intelligence with",
+        "past_verb": "expressed intent to cooperate on intelligence with",
+        "noun": "expression of intent for intelligence cooperation",
+        "ing_form": "expressing intent to cooperate on intelligence with"
+    },
+    "Express_intent_to_cooperate_on_judicial_matters": {
+        "verb": "express intent to cooperate on judicial matters with",
+        "past_verb": "expressed intent to cooperate on judicial matters with",
+        "noun": "expression of intent for judicial cooperation",
+        "ing_form": "expressing intent to cooperate on judicial matters with"
+    },
+    "Express_intent_to_de-escalate_military_engagement": {
+        "verb": "express intent to de-escalate military engagement with",
+        "past_verb": "expressed intent to de-escalate military engagement with",
+        "noun": "expression of intent for military de-escalation",
+        "ing_form": "expressing intent to de-escalate military engagement with"
+    },
+    "Express_intent_to_ease_administrative_sanctions": {
+        "verb": "express intent to ease administrative sanctions against",
+        "past_verb": "expressed intent to ease administrative sanctions against",
+        "noun": "expression of intent to ease administrative sanctions",
+        "ing_form": "expressing intent to ease administrative sanctions against"
+    },
+    "Express_intent_to_ease_economic_sanctions,_boycott,_or_embargo": {
+        "verb": "express intent to ease economic sanctions, boycotts, or embargoes against",
+        "past_verb": "expressed intent to ease economic sanctions, boycotts, or embargoes against",
+        "noun": "expression of intent to ease economic sanctions",
+        "ing_form": "expressing intent to ease economic sanctions, boycotts, or embargoes against"
+    },
+    "Express_intent_to_engage_in_diplomatic_cooperation_(such_as_policy_support)": {
+        "verb": "express intent to engage in diplomatic cooperation with",
+        "past_verb": "expressed intent to engage in diplomatic cooperation with",
+        "noun": "expression of intent for diplomatic cooperation",
+        "ing_form": "expressing intent to engage in diplomatic cooperation with"
+    },
+    "Express_intent_to_engage_in_material_cooperation": {
+        "verb": "express intent to engage in material cooperation with",
+        "past_verb": "expressed intent to engage in material cooperation with",
+        "noun": "expression of intent for material cooperation",
+        "ing_form": "expressing intent to engage in material cooperation with"
+    },
+    "Express_intent_to_institute_political_reform": {
+        "verb": "express intent to institute political reform affecting",
+        "past_verb": "expressed intent to institute political reform affecting",
+        "noun": "expression of intent for political reform",
+        "ing_form": "expressing intent to institute political reform affecting"
+    },
+    "Express_intent_to_mediate": {
+        "verb": "express intent to mediate a dispute involving",
+        "past_verb": "expressed intent to mediate a dispute involving",
+        "noun": "expression of intent to mediate",
+        "ing_form": "expressing intent to mediate a dispute involving"
+    },
+    "Express_intent_to_meet_or_negotiate": {
+        "verb": "express intent to meet or negotiate with",
+        "past_verb": "expressed intent to meet or negotiate with",
+        "noun": "expression of intent to meet or negotiate",
+        "ing_form": "expressing intent to meet or negotiate with"
+    },
+    "Express_intent_to_provide_economic_aid": {
+        "verb": "express intent to provide economic aid to",
+        "past_verb": "expressed intent to provide economic aid to",
+        "noun": "expression of intent to provide economic aid",
+        "ing_form": "expressing intent to provide economic aid to"
+    },
+    "Express_intent_to_provide_humanitarian_aid": {
+        "verb": "express intent to provide humanitarian aid to",
+        "past_verb": "expressed intent to provide humanitarian aid to",
+        "noun": "expression of intent to provide humanitarian aid",
+        "ing_form": "expressing intent to provide humanitarian aid to"
+    },
+    "Express_intent_to_provide_material_aid": {
+        "verb": "express intent to provide material aid to",
+        "past_verb": "expressed intent to provide material aid to",
+        "noun": "expression of intent to provide material aid",
+        "ing_form": "expressing intent to provide material aid to"
+    },
+    "Express_intent_to_provide_military_aid": {
+        "verb": "express intent to provide military aid to",
+        "past_verb": "expressed intent to provide military aid to",
+        "noun": "expression of intent to provide military aid",
+        "ing_form": "expressing intent to provide military aid to"
+    },
+    "Express_intent_to_provide_military_protection_or_peacekeeping": {
+        "verb": "express intent to provide military protection or peacekeeping to",
+        "past_verb": "expressed intent to provide military protection or peacekeeping to",
+        "noun": "expression of intent for military protection",
+        "ing_form": "expressing intent to provide military protection or peacekeeping to"
+    },
+    "Express_intent_to_release_persons_or_property": {
+        "verb": "express intent to release persons or property belonging to",
+        "past_verb": "expressed intent to release persons or property belonging to",
+        "noun": "expression of intent to release persons or property",
+        "ing_form": "expressing intent to release persons or property belonging to"
+    },
+    "Express_intent_to_settle_dispute": {
+        "verb": "express intent to settle a dispute with",
+        "past_verb": "expressed intent to settle a dispute with",
+        "noun": "expression of intent to settle dispute",
+        "ing_form": "expressing intent to settle a dispute with"
+    },
+    "Express_intent_to_yield": {
+        "verb": "express intent to yield to",
+        "past_verb": "expressed intent to yield to",
+        "noun": "expression of intent to yield",
+        "ing_form": "expressing intent to yield to"
+    },
+    "Forgive": {
+        "verb": "grant forgiveness to",
+        "past_verb": "granted forgiveness to",
+        "noun": "forgiveness",
+        "ing_form": "granting forgiveness to"
+    },
+    "Give_ultimatum": {
+        "verb": "issue an ultimatum to",
+        "past_verb": "issued an ultimatum to",
+        "noun": "ultimatum",
+        "ing_form": "issuing an ultimatum to"
+    },
+    "Grant_asylum": {
+        "verb": "grant asylum to individuals from",
+        "past_verb": "granted asylum to individuals from",
+        "noun": "asylum grant",
+        "ing_form": "granting asylum to individuals from"
+    },
+    "Grant_diplomatic_recognition": {
+        "verb": "grant diplomatic recognition to",
+        "past_verb": "granted diplomatic recognition to",
+        "noun": "diplomatic recognition",
+        "ing_form": "granting diplomatic recognition to"
+    },
+    "Halt_mediation": {
+        "verb": "halt mediation with",
+        "past_verb": "halted mediation with",
+        "noun": "halt of mediation",
+        "ing_form": "halting mediation with"
+    },
+    "Halt_negotiations": {
+        "verb": "halt negotiations with",
+        "past_verb": "halted negotiations with",
+        "noun": "halt of negotiations",
+        "ing_form": "halting negotiations with"
+    },
+    "Host_a_visit": {
+        "verb": "host a visit from",
+        "past_verb": "hosted a visit from",
+        "noun": "hosting of a visit",
+        "ing_form": "hosting a visit from"
+    },
+    "Impose_administrative_sanctions": {
+        "verb": "impose administrative sanctions against",
+        "past_verb": "imposed administrative sanctions against",
+        "noun": "imposition of administrative sanctions",
+        "ing_form": "imposing administrative sanctions against"
+    },
+    "Impose_blockade,_restrict_movement": {
+        "verb": "impose a blockade or restrict movement against",
+        "past_verb": "imposed a blockade or restrict movement against",
+        "noun": "imposition of blockade or movement restriction",
+        "ing_form": "imposing a blockade or restricting movement against"
+    },
+    "Impose_curfew": {
+        "verb": "impose a curfew affecting",
+        "past_verb": "imposed a curfew affecting",
+        "noun": "imposition of curfew",
+        "ing_form": "imposing a curfew affecting"
+    },
+    "Impose_embargo,_boycott,_or_sanctions": {
+        "verb": "impose an embargo, boycott, or sanctions against",
+        "past_verb": "imposed an embargo, boycott, or sanctions against",
+        "noun": "imposition of embargo, boycott, or sanctions",
+        "ing_form": "imposing an embargo, boycott, or sanctions against"
+    },
+    "Impose_restrictions_on_political_freedoms": {
+        "verb": "impose restrictions on political freedoms affecting",
+        "past_verb": "imposed restrictions on political freedoms affecting",
+        "noun": "imposition of restrictions on political freedoms",
+        "ing_form": "imposing restrictions on political freedoms affecting"
+    },
+    "Impose_state_of_emergency_or_martial_law": {
+        "verb": "impose a state of emergency or martial law affecting",
+        "past_verb": "imposed a state of emergency or martial law affecting",
+        "noun": "imposition of state of emergency or martial law",
+        "ing_form": "imposing a state of emergency or martial law affecting"
+    },
+    "Increase_military_alert_status": {
+        "verb": "increase military alert status directed at",
+        "past_verb": "increased military alert status directed at",
+        "noun": "increase of military alert status",
+        "ing_form": "increasing military alert status directed at"
+    },
+    "Increase_police_alert_status": {
+        "verb": "increase police alert status directed at",
+        "past_verb": "increased police alert status directed at",
+        "noun": "increase of police alert status",
+        "ing_form": "increasing police alert status directed at"
+    },
+    "Investigate": {
+        "verb": "launch an investigation into",
+        "past_verb": "launched an investigation into",
+        "noun": "investigation",
+        "ing_form": "launching an investigation into"
+    },
+    "Investigate_crime,_corruption": {
+        "verb": "launch an investigation into crime or corruption involving",
+        "past_verb": "launched an investigation into crime or corruption involving",
+        "noun": "investigation into crime or corruption",
+        "ing_form": "launching an investigation into crime or corruption involving"
+    },
+    "Investigate_human_rights_abuses": {
+        "verb": "launch an investigation into human rights abuses involving",
+        "past_verb": "launched an investigation into human rights abuses involving",
+        "noun": "investigation into human rights abuses",
+        "ing_form": "launching an investigation into human rights abuses involving"
+    },
+    "Investigate_military_action": {
+        "verb": "launch an investigation into military action involving",
+        "past_verb": "launched an investigation into military action involving",
+        "noun": "investigation into military action",
+        "ing_form": "launching an investigation into military action involving"
+    },
+    "Investigate_war_crimes": {
+        "verb": "launch an investigation into war crimes involving",
+        "past_verb": "launched an investigation into war crimes involving",
+        "noun": "investigation into war crimes",
+        "ing_form": "launching an investigation into war crimes involving"
+    },
+    "Kill_by_physical_assault": {
+        "verb": "carry out a lethal physical assault against",
+        "past_verb": "carried out a lethal physical assault against",
+        "noun": "lethal physical assault",
+        "ing_form": "carrying out a lethal physical assault against"
+    },
+    "Make_a_visit": {
+        "verb": "make a visit to",
+        "past_verb": "made a visit to",
+        "noun": "visit",
+        "ing_form": "making a visit to"
+    },
+    "Make_an_appeal_or_request": {
+        "verb": "direct an appeal or request to",
+        "past_verb": "directed an appeal or request to",
+        "noun": "appeal or request",
+        "ing_form": "directing an appeal or request to"
+    },
+    "Make_empathetic_comment": {
+        "verb": "make an empathetic comment directed at",
+        "past_verb": "made an empathetic comment directed at",
+        "noun": "empathetic comment",
+        "ing_form": "making an empathetic comment directed at"
+    },
+    "Make_optimistic_comment": {
+        "verb": "make an optimistic comment directed at",
+        "past_verb": "made an optimistic comment directed at",
+        "noun": "optimistic comment",
+        "ing_form": "making an optimistic comment directed at"
+    },
+    "Make_pessimistic_comment": {
+        "verb": "make a pessimistic comment directed at",
+        "past_verb": "made a pessimistic comment directed at",
+        "noun": "pessimistic comment",
+        "ing_form": "making a pessimistic comment directed at"
+    },
+    "Make_statement": {
+        "verb": "issue a statement directed at",
+        "past_verb": "issued a statement directed at",
+        "noun": "statement",
+        "ing_form": "issuing a statement directed at"
+    },
+    "Mediate": {
+        "verb": "mediate a dispute involving",
+        "past_verb": "mediated a dispute involving",
+        "noun": "mediation",
+        "ing_form": "mediating a dispute involving"
+    },
+    "Meet_at_a_'third'_location": {
+        "verb": "hold a meeting at a third location with",
+        "past_verb": "held a meeting at a third location with",
+        "noun": "meeting at a third location",
+        "ing_form": "holding a meeting at a third location with"
+    },
+    "Mobilize_or_increase_armed_forces": {
+        "verb": "mobilize or increase armed forces directed at",
+        "past_verb": "mobilized or increased armed forces directed at",
+        "noun": "mobilization or increase of armed forces",
+        "ing_form": "mobilizing or increasing armed forces directed at"
+    },
+    "Mobilize_or_increase_police_power": {
+        "verb": "mobilize or increase police power directed at",
+        "past_verb": "mobilized or increased police power directed at",
+        "noun": "mobilization or increase of police power",
+        "ing_form": "mobilizing or increasing police power directed at"
+    },
+    "Obstruct_passage,_block": {
+        "verb": "obstruct the passage or block the movement of",
+        "past_verb": "obstructed the passage or blocked the movement of",
+        "noun": "obstruction of passage or blockade",
+        "ing_form": "obstructing the passage or blocking the movement of"
+    },
+    "Occupy_territory": {
+        "verb": "occupy territory belonging to",
+        "past_verb": "occupied territory belonging to",
+        "noun": "territorial occupation",
+        "ing_form": "occupying territory belonging to"
+    },
+    "Physically_assault": {
+        "verb": "carry out a physical assault against",
+        "past_verb": "carried out a physical assault against",
+        "noun": "physical assault",
+        "ing_form": "carrying out a physical assault against"
+    },
+    "Praise_or_endorse": {
+        "verb": "issue praise or an endorsement for",
+        "past_verb": "issued praise or an endorsement for",
+        "noun": "praise or endorsement",
+        "ing_form": "issuing praise or an endorsement for"
+    },
+    "Protest_violently,_riot": {
+        "verb": "protest violently or riot against",
+        "past_verb": "protested violently or rioted against",
+        "noun": "violent protest or riot",
+        "ing_form": "protesting violently or rioting against"
+    },
+    "Provide_aid": {
+        "verb": "provide aid to",
+        "past_verb": "provided aid to",
+        "noun": "provision of aid",
+        "ing_form": "providing aid to"
+    },
+    "Provide_economic_aid": {
+        "verb": "provide economic aid to",
+        "past_verb": "provided economic aid to",
+        "noun": "provision of economic aid",
+        "ing_form": "providing economic aid to"
+    },
+    "Provide_humanitarian_aid": {
+        "verb": "provide humanitarian aid to",
+        "past_verb": "provided humanitarian aid to",
+        "noun": "provision of humanitarian aid",
+        "ing_form": "providing humanitarian aid to"
+    },
+    "Provide_military_aid": {
+        "verb": "provide military aid to",
+        "past_verb": "provided military aid to",
+        "noun": "provision of military aid",
+        "ing_form": "providing military aid to"
+    },
+    "Provide_military_protection_or_peacekeeping": {
+        "verb": "provide military protection or peacekeeping to",
+        "past_verb": "provided military protection or peacekeeping to",
+        "noun": "provision of military protection or peacekeeping",
+        "ing_form": "providing military protection or peacekeeping to"
+    },
+    "Rally_opposition_against": {
+        "verb": "rally opposition against",
+        "past_verb": "rallied opposition against",
+        "noun": "rallying of opposition",
+        "ing_form": "rallying opposition against"
+    },
+    "Rally_support_on_behalf_of": {
+        "verb": "rally support on behalf of",
+        "past_verb": "rallied support on behalf of",
+        "noun": "rallying of support",
+        "ing_form": "rallying support on behalf of"
+    },
+    "Receive_deployment_of_peacekeepers": {
+        "verb": "receive a deployment of peacekeepers from",
+        "past_verb": "received a deployment of peacekeepers from",
+        "noun": "reception of peacekeepers",
+        "ing_form": "receiving a deployment of peacekeepers from"
+    },
+    "Receive_inspectors": {
+        "verb": "receive inspectors from",
+        "past_verb": "received inspectors from",
+        "noun": "reception of inspectors",
+        "ing_form": "receiving inspectors from"
+    },
+    "Reduce_or_break_diplomatic_relations": {
+        "verb": "reduce or break diplomatic relations with",
+        "past_verb": "reduced or broke diplomatic relations with",
+        "noun": "reduction or breaking of diplomatic relations",
+        "ing_form": "reducing or breaking diplomatic relations with"
+    },
+    "Reduce_or_stop_economic_assistance": {
+        "verb": "reduce or stop economic assistance to",
+        "past_verb": "reduced or stopped economic assistance to",
+        "noun": "reduction or stoppage of economic assistance",
+        "ing_form": "reducing or stopping economic assistance to"
+    },
+    "Reduce_or_stop_humanitarian_assistance": {
+        "verb": "reduce or stop humanitarian assistance to",
+        "past_verb": "reduced or stopped humanitarian assistance to",
+        "noun": "reduction or stoppage of humanitarian assistance",
+        "ing_form": "reducing or stopping humanitarian assistance to"
+    },
+    "Reduce_or_stop_material_aid": {
+        "verb": "reduce or stop material aid to",
+        "past_verb": "reduced or stopped material aid to",
+        "noun": "reduction or stoppage of material aid",
+        "ing_form": "reducing or stopping material aid to"
+    },
+    "Reduce_or_stop_military_assistance": {
+        "verb": "reduce or stop military assistance to",
+        "past_verb": "reduced or stopped military assistance to",
+        "noun": "reduction or stoppage of military assistance",
+        "ing_form": "reducing or stopping military assistance to"
+    },
+    "Reduce_relations": {
+        "verb": "reduce relations with",
+        "past_verb": "reduced relations with",
+        "noun": "reduction of relations",
+        "ing_form": "reducing relations with"
+    },
+    "Refuse_to_de-escalate_military_engagement": {
+        "verb": "refuse to de-escalate military engagement with",
+        "past_verb": "refused to de-escalate military engagement with",
+        "noun": "refusal to de-escalate military engagement",
+        "ing_form": "refusing to de-escalate military engagement with"
+    },
+    "Refuse_to_ease_administrative_sanctions": {
+        "verb": "refuse to ease administrative sanctions against",
+        "past_verb": "refused to ease administrative sanctions against",
+        "noun": "refusal to ease administrative sanctions",
+        "ing_form": "refusing to ease administrative sanctions against"
+    },
+    "Refuse_to_ease_economic_sanctions,_boycott,_or_embargo": {
+        "verb": "refuse to ease economic sanctions, boycotts, or embargoes against",
+        "past_verb": "refused to ease economic sanctions, boycotts, or embargoes against",
+        "noun": "refusal to ease economic sanctions",
+        "ing_form": "refusing to ease economic sanctions, boycotts, or embargoes against"
+    },
+    "Refuse_to_release_persons_or_property": {
+        "verb": "refuse to release persons or property belonging to",
+        "past_verb": "refused to release persons or property belonging to",
+        "noun": "refusal to release persons or property",
+        "ing_form": "refusing to release persons or property belonging to"
+    },
+    "Refuse_to_yield": {
+        "verb": "refuse to yield to",
+        "past_verb": "refused to yield to",
+        "noun": "refusal to yield",
+        "ing_form": "refusing to yield to"
+    },
+    "Reject": {
+        "verb": "direct a rejection to",
+        "past_verb": "directed a rejection to",
+        "noun": "rejection",
+        "ing_form": "directing a rejection to"
+    },
+    "Reject_economic_cooperation": {
+        "verb": "reject economic cooperation with",
+        "past_verb": "rejected economic cooperation with",
+        "noun": "rejection of economic cooperation",
+        "ing_form": "rejecting economic cooperation with"
+    },
+    "Reject_judicial_cooperation": {
+        "verb": "reject judicial cooperation with",
+        "past_verb": "rejected judicial cooperation with",
+        "noun": "rejection of judicial cooperation",
+        "ing_form": "rejecting judicial cooperation with"
+    },
+    "Reject_material_cooperation": {
+        "verb": "reject material cooperation with",
+        "past_verb": "rejected material cooperation with",
+        "noun": "rejection of material cooperation",
+        "ing_form": "rejecting material cooperation with"
+    },
+    "Reject_mediation": {
+        "verb": "reject mediation from",
+        "past_verb": "rejected mediation from",
+        "noun": "rejection of mediation",
+        "ing_form": "rejecting mediation from"
+    },
+    "Reject_military_cooperation": {
+        "verb": "reject military cooperation with",
+        "past_verb": "rejected military cooperation with",
+        "noun": "rejection of military cooperation",
+        "ing_form": "rejecting military cooperation with"
+    },
+    "Reject_plan,_agreement_to_settle_dispute": {
+        "verb": "reject a plan or agreement to settle a dispute with",
+        "past_verb": "rejected a plan or agreement to settle a dispute with",
+        "noun": "rejection of a dispute settlement plan",
+        "ing_form": "rejecting a plan or agreement to settle a dispute with"
+    },
+    "Reject_proposal_to_meet,_discuss,_or_negotiate": {
+        "verb": "reject a proposal to meet, discuss, or negotiate with",
+        "past_verb": "rejected a proposal to meet, discuss, or negotiate with",
+        "noun": "rejection of a meeting proposal",
+        "ing_form": "rejecting a proposal to meet, discuss, or negotiate with"
+    },
+    "Reject_request_for_change_in_institutions,_regime": {
+        "verb": "reject a request for a change in institutions or regime from",
+        "past_verb": "rejected a request for a change in institutions or regime from",
+        "noun": "rejection of a request for regime change",
+        "ing_form": "rejecting a request for a change in institutions or regime from"
+    },
+    "Reject_request_for_change_in_leadership": {
+        "verb": "reject a request for a change in leadership from",
+        "past_verb": "rejected a request for a change in leadership from",
+        "noun": "rejection of a request for leadership change",
+        "ing_form": "rejecting a request for a change in leadership from"
+    },
+    "Reject_request_for_economic_aid": {
+        "verb": "reject a request for economic aid from",
+        "past_verb": "rejected a request for economic aid from",
+        "noun": "rejection of a request for economic aid",
+        "ing_form": "rejecting a request for economic aid from"
+    },
+    "Reject_request_for_humanitarian_aid": {
+        "verb": "reject a request for humanitarian aid from",
+        "past_verb": "rejected a request for humanitarian aid from",
+        "noun": "rejection of a request for humanitarian aid",
+        "ing_form": "rejecting a request for humanitarian aid from"
+    },
+    "Reject_request_for_military_protection_or_peacekeeping": {
+        "verb": "reject a request for military protection or peacekeeping from",
+        "past_verb": "rejected a request for military protection or peacekeeping from",
+        "noun": "rejection of a request for military protection",
+        "ing_form": "rejecting a request for military protection or peacekeeping from"
+    },
+    "Reject_request_for_policy_change": {
+        "verb": "reject a request for a policy change from",
+        "past_verb": "rejected a request for a policy change from",
+        "noun": "rejection of a request for policy change",
+        "ing_form": "rejecting a request for a policy change from"
+    },
+    "Reject_request_for_rights": {
+        "verb": "reject a request for rights from",
+        "past_verb": "rejected a request for rights from",
+        "noun": "rejection of a request for rights",
+        "ing_form": "rejecting a request for rights from"
+    },
+    "Reject_request_or_demand_for_political_reform": {
+        "verb": "reject a request or demand for political reform from",
+        "past_verb": "rejected a request or demand for political reform from",
+        "noun": "rejection of a request for political reform",
+        "ing_form": "rejecting a request or demand for political reform from"
+    },
+    "Retreat_or_surrender_militarily": {
+        "verb": "retreat from or surrender militarily to",
+        "past_verb": "retreated from or surrendered militarily to",
+        "noun": "military retreat or surrender",
+        "ing_form": "retreating from or surrendering militarily to"
+    },
+    "Return,_release_person(s)": {
+        "verb": "return or release persons belonging to",
+        "past_verb": "returned or released persons belonging to",
+        "noun": "return or release of persons",
+        "ing_form": "returning or releasing persons belonging to"
+    },
+    "Return,_release_property": {
+        "verb": "return or release property belonging to",
+        "past_verb": "returned or released property belonging to",
+        "noun": "return or release of property",
+        "ing_form": "returning or releasing property belonging to"
+    },
+    "Seize_or_damage_property": {
+        "verb": "seize or damage property belonging to",
+        "past_verb": "seized or damaged property belonging to",
+        "noun": "seizure or damage of property",
+        "ing_form": "seizing or damaging property belonging to"
+    },
+    "Sexually_assault": {
+        "verb": "carry out a sexual assault against",
+        "past_verb": "carried out a sexual assault against",
+        "noun": "sexual assault",
+        "ing_form": "carrying out a sexual assault against"
+    },
+    "Share_intelligence_or_information": {
+        "verb": "share intelligence or information with",
+        "past_verb": "shared intelligence or information with",
+        "noun": "sharing of intelligence or information",
+        "ing_form": "sharing intelligence or information with"
+    },
+    "Sign_formal_agreement": {
+        "verb": "sign a formal agreement with",
+        "past_verb": "signed a formal agreement with",
+        "noun": "formal agreement signature",
+        "ing_form": "signing a formal agreement with"
+    },
+    "Threaten": {
+        "verb": "issue a threat directed at",
+        "past_verb": "issued a threat directed at",
+        "noun": "threat",
+        "ing_form": "issuing a threat directed at"
+    },
+    "Threaten_non-force": {
+        "verb": "issue a non-force threat directed at",
+        "past_verb": "issued a non-force threat directed at",
+        "noun": "non-force threat",
+        "ing_form": "issuing a non-force threat directed at"
+    },
+    "Threaten_to_halt_international_involvement_(non-mediation)": {
+        "verb": "threaten to halt international involvement with",
+        "past_verb": "threatened to halt international involvement with",
+        "noun": "threat to halt international involvement",
+        "ing_form": "threatening to halt international involvement with"
+    },
+    "Threaten_to_halt_mediation": {
+        "verb": "threaten to halt mediation involving",
+        "past_verb": "threatened to halt mediation involving",
+        "noun": "threat to halt mediation",
+        "ing_form": "threatening to halt mediation involving"
+    },
+    "Threaten_to_halt_negotiations": {
+        "verb": "threaten to halt negotiations with",
+        "past_verb": "threatened to halt negotiations with",
+        "noun": "threat to halt negotiations",
+        "ing_form": "threatening to halt negotiations with"
+    },
+    "Threaten_to_impose_curfew": {
+        "verb": "threaten to impose a curfew affecting",
+        "past_verb": "threatened to impose a curfew affecting",
+        "noun": "threat to impose curfew",
+        "ing_form": "threatening to impose a curfew affecting"
+    },
+    "Threaten_to_impose_state_of_emergency_or_martial_law": {
+        "verb": "threaten to impose a state of emergency or martial law affecting",
+        "past_verb": "threatened to impose a state of emergency or martial law affecting",
+        "noun": "threat to impose state of emergency or martial law",
+        "ing_form": "threatening to impose a state of emergency or martial law affecting"
+    },
+    "Threaten_to_reduce_or_break_relations": {
+        "verb": "threaten to reduce or break relations with",
+        "past_verb": "threatened to reduce or break relations with",
+        "noun": "threat to reduce or break relations",
+        "ing_form": "threatening to reduce or break relations with"
+    },
+    "Threaten_to_reduce_or_stop_aid": {
+        "verb": "threaten to reduce or stop aid to",
+        "past_verb": "threatened to reduce or stop aid to",
+        "noun": "threat to reduce or stop aid",
+        "ing_form": "threatening to reduce or stop aid to"
+    },
+    "Threaten_with_administrative_sanctions": {
+        "verb": "issue a threat of administrative sanctions against",
+        "past_verb": "issued a threat of administrative sanctions against",
+        "noun": "threat of administrative sanctions",
+        "ing_form": "issuing a threat of administrative sanctions against"
+    },
+    "Threaten_with_military_force": {
+        "verb": "issue a threat of military force against",
+        "past_verb": "issued a threat of military force against",
+        "noun": "threat of military force",
+        "ing_form": "issuing a threat of military force against"
+    },
+    "Threaten_with_political_dissent,_protest": {
+        "verb": "issue a threat of political dissent or protest against",
+        "past_verb": "issued a threat of political dissent or protest against",
+        "noun": "threat of political dissent or protest",
+        "ing_form": "issuing a threat of political dissent or protest against"
+    },
+    "Threaten_with_repression": {
+        "verb": "issue a threat of repression against",
+        "past_verb": "issued a threat of repression against",
+        "noun": "threat of repression",
+        "ing_form": "issuing a threat of repression against"
+    },
+    "Threaten_with_restrictions_on_political_freedoms": {
+        "verb": "issue a threat of restrictions on political freedoms affecting",
+        "past_verb": "issued a threat of restrictions on political freedoms affecting",
+        "noun": "threat of restrictions on political freedoms",
+        "ing_form": "issuing a threat of restrictions on political freedoms affecting"
+    },
+    "Threaten_with_sanctions,_boycott,_embargo": {
+        "verb": "issue a threat of sanctions, boycotts, or embargoes against",
+        "past_verb": "issued a threat of sanctions, boycotts, or embargoes against",
+        "noun": "threat of sanctions, boycotts, or embargoes",
+        "ing_form": "issuing a threat of sanctions, boycotts, or embargoes against"
+    },
+    "Torture": {
+        "verb": "carry out torture against",
+        "past_verb": "carried out torture against",
+        "noun": "torture",
+        "ing_form": "carrying out torture against"
+    },
+    "Use_as_human_shield": {
+        "verb": "use as human shields individuals belonging to",
+        "past_verb": "used as human shields individuals belonging to",
+        "noun": "use of human shields",
+        "ing_form": "using as human shields individuals belonging to"
+    },
+    "Use_chemical,_biological,_or_radiological_weapons": {
+        "verb": "use chemical, biological, or radiological weapons against",
+        "past_verb": "used chemical, biological, or radiological weapons against",
+        "noun": "use of chemical, biological, or radiological weapons",
+        "ing_form": "using chemical, biological, or radiological weapons against"
+    },
+    "Use_conventional_military_force": {
+        "verb": "use conventional military force against",
+        "past_verb": "used conventional military force against",
+        "noun": "use of conventional military force",
+        "ing_form": "using conventional military force against"
+    },
+    "Use_tactics_of_violent_repression": {
+        "verb": "use tactics of violent repression against",
+        "past_verb": "used tactics of violent repression against",
+        "noun": "use of violent repression tactics",
+        "ing_form": "using tactics of violent repression against"
+    },
+    "Use_unconventional_violence": {
+        "verb": "use unconventional violence against",
+        "past_verb": "used unconventional violence against",
+        "noun": "use of unconventional violence",
+        "ing_form": "using unconventional violence against"
+    },
+    "Veto": {
+        "verb": "exercise a veto against",
+        "past_verb": "exercised a veto against",
+        "noun": "veto",
+        "ing_form": "exercising a veto against"
+    },
+    "Violate_ceasefire": {
+        "verb": "violate a ceasefire with",
+        "past_verb": "violated a ceasefire with",
+        "noun": "ceasefire violation",
+        "ing_form": "violating a ceasefire with"
+    },
+    "Yield": {
+        "verb": "yield to",
+        "past_verb": "yielded to",
+        "noun": "yielding",
+        "ing_form": "yielding to"
+    },
+    "fight_with_artillery_and_tanks": {
+        "verb": "fight with artillery and tanks against",
+        "past_verb": "fought with artillery and tanks against",
+        "noun": "combat with artillery and tanks",
+        "ing_form": "fighting with artillery and tanks against"
+    },
+    "fight_with_small_arms_and_light_weapons": {
+        "verb": "fight with small arms and light weapons against",
+        "past_verb": "fought with small arms and light weapons against",
+        "noun": "combat with small arms and light weapons",
+        "ing_form": "fighting with small arms and light weapons against"
+    }
+}

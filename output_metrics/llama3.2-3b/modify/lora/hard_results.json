@@ -1,0 +1,3152 @@
+[
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "On 2011-03-19, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2011-03-19, the target was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2011-01-14, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2011-01-14, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2011-05-22, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2011-03-19, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2011-03-19, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa South Africa South Africa South Africa South Africa South South Africa South",
+            "locality": {
+                "history_locality_ans": " South Africa Africa South Africa Africa South Africa South Africa South Africa South Africa South",
+                "future_locality_ans": " South Africa South Africa Africa South Africa South Africa South Africa South Africa South Africa",
+                "temporal_hop_backward_ans": " South Africa South Africa South Africa South Africa South Africa Africa South Africa South Africa",
+                "temporal_hop_forward_ans": " South Africa South Africa South Africa Africa South Africa South Africa South Africa South Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa South Africa South Africa South Africa South Africa Africa South Africa South Africa",
+                "temporal_reasoning_ans": " South Africa South Africa South Africa South Africa Africa South Africa South Africa South Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "On 2011-06-14, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Korea",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2011-06-14, the target was ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2011-05-22, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2011-05-22, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2011-06-24, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Korea on 2011-06-14, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Korea on 2011-06-14, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+            "locality": {
+                "history_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "future_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_backward_ans": "úíg����ígígígígígígígígíg",
+                "temporal_hop_forward_ans": " samtígígígígígígígígígígígígígíg"
+            },
+            "portability": {
+                "generality_ans": "укиelianuronelopüsígígременноременноременноременноígígígíg",
+                "temporal_reasoning_ans": "�ígíguccuccuccíguccígígígígígígíg"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "On 2012-05-13, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of South Korea on 2012-05-13 was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2012-01-09, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2012-01-09, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2012-05-14, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2012-05-13, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2012-05-13, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_backward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_reasoning_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "On 2012-08-24, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2012-08-24, the diplomatic cooperation concerning South Korea was directed at ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2012-08-15, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2012-08-15, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2012-08-27, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2012-08-24, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2012-08-24, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_backward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_reasoning_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "On 2012-09-08, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2012-09-08, the diplomatic cooperation concerning South Korea was directed at ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2012-08-27, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2012-08-27, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2012-09-09, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2012-09-08, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2012-09-08, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "On 2013-01-09, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2013-01-09, the target was ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2013-01-08, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-01-08, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2013-01-30, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2013-01-09, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2013-01-09, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "On 2013-03-14, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "France",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2013-03-14, the diplomatic cooperation concerning South Korea was directed at ",
+                    "ground_truth": "France"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2013-01-30, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "France"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-01-30, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2013-04-17, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with France on 2013-03-14, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with France on 2013-03-14, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " France France France France France France France France France France France France France France France",
+            "locality": {
+                "history_locality_ans": " France France France France France France France France France France France France France France France",
+                "future_locality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_backward_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_forward_ans": " France France France France France France France France France France France France France France France"
+            },
+            "portability": {
+                "generality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_reasoning_ans": " France France France France France France France France France France France France France France France"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "On 2013-05-09, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Laos",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2013-05-09, the target was ",
+                    "ground_truth": "Laos"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2013-04-17, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Laos"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-04-17, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2013-06-26, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Laos on 2013-05-09, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Laos on 2013-05-09, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+            "locality": {
+                "history_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "future_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_backward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_forward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            },
+            "portability": {
+                "generality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_reasoning_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "On 2013-07-08, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Iran",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of South Korea on 2013-07-08 was ",
+                    "ground_truth": "Iran"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2013-06-26, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Iran"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-06-26, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2013-07-17, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Iran on 2013-07-08, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Iran on 2013-07-08, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+            "locality": {
+                "history_locality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "future_locality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_hop_backward_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_hop_forward_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran"
+            },
+            "portability": {
+                "generality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_reasoning_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "On 2013-09-24, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2013-09-24, the target was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2013-07-25, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-07-25, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2013-09-25, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2013-09-24, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2013-09-24, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa South Africa Africa South South",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa South South Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa South Africa Africa Africa Africa South",
+                "temporal_hop_backward_ans": " Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " Africa South Africa Africa South South South South South South Africa South South Africa Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa South South South South South South South South South South South South South",
+                "temporal_reasoning_ans": " South Africa Africa South South South South Africa Africa Africa South Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "On 2013-10-01, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Cambodia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of South Korea on 2013-10-01 was ",
+                    "ground_truth": "Cambodia"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2013-09-25, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Cambodia"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-09-25, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2013-11-15, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Cambodia on 2013-10-01, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Cambodia on 2013-10-01, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+            "locality": {
+                "history_locality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "future_locality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_hop_backward_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_hop_forward_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia"
+            },
+            "portability": {
+                "generality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_reasoning_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "On 2014-03-26, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Korea",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2014-03-26, the diplomatic cooperation concerning South Korea was directed at ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2014-03-21, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2014-03-21, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2014-05-27, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Korea on 2014-03-26, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Korea on 2014-03-26, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+            "locality": {
+                "history_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "future_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_backward_ans": " Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_forward_ans": " Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            },
+            "portability": {
+                "generality_ans": " South Korea South Korea Korea Korea Korea Korea Korea Korea South Korea Korea Korea Korea",
+                "temporal_reasoning_ans": " Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "On 2014-06-10, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Laos",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of South Korea on 2014-06-10 was ",
+                    "ground_truth": "Laos"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2014-05-27, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Laos"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2014-05-27, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2014-06-18, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Laos on 2014-06-10, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Laos on 2014-06-10, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+            "locality": {
+                "history_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "future_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_backward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_forward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            },
+            "portability": {
+                "generality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_reasoning_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "On 2014-08-21, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Thailand",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2014-08-21, the target was ",
+                    "ground_truth": "Thailand"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2014-08-16, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Thailand"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2014-08-16, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2014-08-22, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Thailand on 2014-08-21, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Thailand on 2014-08-21, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+            "locality": {
+                "history_locality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "future_locality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_hop_backward_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_hop_forward_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand"
+            },
+            "portability": {
+                "generality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_reasoning_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "On 2015-08-03, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Korea",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of South Korea on 2015-08-03 was ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2015-07-21, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2015-07-21, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2015-08-27, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Korea on 2015-08-03, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Korea on 2015-08-03, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+            "locality": {
+                "history_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "future_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_backward_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_forward_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            },
+            "portability": {
+                "generality_ans": " Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_reasoning_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "On 2015-10-19, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "France",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of South Korea on 2015-10-19 was ",
+                    "ground_truth": "France"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2015-08-27, South Korea next engaged in diplomatic cooperation with ",
+                    "ground_truth": "France"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2015-08-27, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2015-10-21, South Korea engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with France on 2015-10-19, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with France on 2015-10-19, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "South Korea"
+        },
+        "post": {
+            "rewrite_ans": " France France France France France France France France France France France France France France France",
+            "locality": {
+                "history_locality_ans": " France France France France France France France France France France France France France France France",
+                "future_locality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_backward_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_forward_ans": " France France France France France France France France France France France France France France France"
+            },
+            "portability": {
+                "generality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_reasoning_ans": " France France France France France France France France France France France France France France France"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "On 2006-07-10, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Iran",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2006-07-10, the target was ",
+                    "ground_truth": "Iran"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2006-06-20, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Iran"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2006-06-20, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2006-08-10, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Iran on 2006-07-10, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Iran on 2006-07-10, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+            "locality": {
+                "history_locality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "future_locality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_hop_backward_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_hop_forward_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran"
+            },
+            "portability": {
+                "generality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_reasoning_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "On 2006-08-22, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2006-08-22 was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2006-08-10, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2006-08-10, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2006-08-23, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2006-08-22, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2006-08-22, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+            "locality": {
+                "history_locality_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+                "future_locality_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+                "temporal_hop_backward_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+                "temporal_hop_forward_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South"
+            },
+            "portability": {
+                "generality_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+                "temporal_reasoning_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "On 2006-08-23, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2006-08-23 was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2006-08-22, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2006-08-22, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2006-08-24, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2006-08-23, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2006-08-23, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+            "locality": {
+                "history_locality_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+                "future_locality_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+                "temporal_hop_backward_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South",
+                "temporal_hop_forward_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa South Africa South Africa South Africa South Africa South Africa South Africa",
+                "temporal_reasoning_ans": " South Africa South Africa South Africa South Africa South Africa South Africa South Africa South"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "On 2006-08-24, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Korea",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2006-08-24 was ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2006-08-23, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2006-08-23, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2006-08-25, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Korea on 2006-08-24, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Korea on 2006-08-24, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+            "locality": {
+                "history_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "future_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_backward_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_forward_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            },
+            "portability": {
+                "generality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_reasoning_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "On 2006-08-26, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Korea",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2006-08-26, the target was ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2006-08-25, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2006-08-25, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2006-08-27, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Korea on 2006-08-26, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Korea on 2006-08-26, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+            "locality": {
+                "history_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "future_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_backward_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_forward_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            },
+            "portability": {
+                "generality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_reasoning_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "On 2006-08-29, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2006-08-29, the diplomatic cooperation concerning Vietnam was directed at ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2006-08-28, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2006-08-28, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2006-10-20, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2006-08-29, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2006-08-29, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "On 2006-10-20, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2006-10-20, the target was ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2006-08-29, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2006-08-29, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2006-10-23, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2006-10-20, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2006-10-20, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "On 2007-01-17, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Cambodia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2007-01-17, the target was ",
+                    "ground_truth": "Cambodia"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2006-11-22, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Cambodia"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2006-11-22, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-04-26, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Cambodia on 2007-01-17, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Cambodia on 2007-01-17, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+            "locality": {
+                "history_locality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "future_locality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_hop_backward_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_hop_forward_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia"
+            },
+            "portability": {
+                "generality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_reasoning_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "On 2007-04-26, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "France",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2007-04-26, the diplomatic cooperation concerning Vietnam was directed at ",
+                    "ground_truth": "France"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2007-01-17, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "France"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-01-17, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-05-07, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with France on 2007-04-26, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with France on 2007-04-26, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " France France France France France France France France France France France France France France France",
+            "locality": {
+                "history_locality_ans": " France France France France France France France France France France France France France France France",
+                "future_locality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_backward_ans": " France France France Bowling France France France France France France Bowling France France France France",
+                "temporal_hop_forward_ans": " France France France France France FranceEase France France France Bowling France Bowling BowlingEase"
+            },
+            "portability": {
+                "generality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_reasoning_ans": " France France France France France France France France France France France France France France France"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "On 2007-05-11, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Thailand",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2007-05-11 was ",
+                    "ground_truth": "Thailand"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2007-05-10, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Thailand"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-05-10, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-07-30, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Thailand on 2007-05-11, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Thailand on 2007-05-11, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+            "locality": {
+                "history_locality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "future_locality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_hop_backward_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_hop_forward_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand"
+            },
+            "portability": {
+                "generality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_reasoning_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "On 2007-08-07, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2007-08-07, the target was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2007-07-30, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-07-30, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-08-15, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2007-08-07, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2007-08-07, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_backward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_reasoning_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "On 2007-08-15, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2007-08-15 was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2007-08-07, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-08-07, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-08-28, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2007-08-15, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2007-08-15, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_backward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_reasoning_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "On 2007-08-28, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2007-08-28 was ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2007-08-15, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-08-15, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-09-05, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2007-08-28, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2007-08-28, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "On 2007-10-30, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Cambodia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2007-10-30 was ",
+                    "ground_truth": "Cambodia"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2007-09-27, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Cambodia"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-09-27, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-11-15, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Cambodia on 2007-10-30, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Cambodia on 2007-10-30, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+            "locality": {
+                "history_locality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "future_locality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_hop_backward_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_hop_forward_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia"
+            },
+            "portability": {
+                "generality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_reasoning_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodiaсли"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "On 2007-11-15, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2007-11-15 was ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2007-10-30, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-10-30, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-11-22, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2007-11-15, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2007-11-15, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "On 2007-12-21, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2007-12-21, the diplomatic cooperation concerning Vietnam was directed at ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving South Korea on 2007-12-04, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-12-04, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                },
+                "future_locality": {
+                    "prompt": "On 2007-12-28, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2007-12-21, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2007-12-21, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "On 2007-12-28, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2007-12-28 was ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2007-12-21, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2007-12-21, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-01-31, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2007-12-28, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2007-12-28, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "On 2008-05-19, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Laos",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2008-05-19 was ",
+                    "ground_truth": "Laos"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2008-04-04, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Laos"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-04-04, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-05-31, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Laos on 2008-05-19, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Laos on 2008-05-19, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+            "locality": {
+                "history_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "future_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_backward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_forward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            },
+            "portability": {
+                "generality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_reasoning_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "On 2008-06-02, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2008-06-02, the target was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2008-05-31, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-05-31, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-07-18, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2008-06-02, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2008-06-02, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_backward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_reasoning_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "On 2008-07-18, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Laos",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2008-07-18 was ",
+                    "ground_truth": "Laos"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2008-06-02, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Laos"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-06-02, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-08-07, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Laos on 2008-07-18, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Laos on 2008-07-18, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+            "locality": {
+                "history_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "future_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_backward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_forward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            },
+            "portability": {
+                "generality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_reasoning_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "On 2008-08-22, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Thailand",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2008-08-22, the diplomatic cooperation concerning Vietnam was directed at ",
+                    "ground_truth": "Thailand"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2008-08-07, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Thailand"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-08-07, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-08-25, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Thailand on 2008-08-22, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Thailand on 2008-08-22, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+            "locality": {
+                "history_locality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "future_locality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_hop_backward_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_hop_forward_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand"
+            },
+            "portability": {
+                "generality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_reasoning_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "On 2008-08-26, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2008-08-26, the target was ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2008-08-25, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-08-25, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-09-08, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2008-08-26, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2008-08-26, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "On 2008-09-08, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "France",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "On 2008-09-08, the diplomatic cooperation concerning Vietnam was directed at ",
+                    "ground_truth": "France"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2008-08-26, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "France"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-08-26, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-09-09, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with France on 2008-09-08, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with France on 2008-09-08, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " France France France France France France France France France France France France France France France",
+            "locality": {
+                "history_locality_ans": " France France France France France France France France France France France France France France France",
+                "future_locality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_backward_ans": "               ",
+                "temporal_hop_forward_ans": " France France France France France France France France France France France France France France France"
+            },
+            "portability": {
+                "generality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_reasoning_ans": " F France F France F F and F F and and and and and and"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "On 2008-11-05, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Laos",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2008-11-05, the target was ",
+                    "ground_truth": "Laos"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving South Korea on 2008-10-24, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Laos"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-10-24, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-11-06, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Laos on 2008-11-05, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Laos on 2008-11-05, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+            "locality": {
+                "history_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "future_locality_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_backward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos",
+                "temporal_hop_forward_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            },
+            "portability": {
+                "generality_ans": " til til til tilcoucoucoucoucoucoucoucou Laos Laos Laos",
+                "temporal_reasoning_ans": " Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos Laos"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "On 2008-11-07, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2008-11-07 was ",
+                    "ground_truth": "Vietnam"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2008-11-06, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Vietnam"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-11-06, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-11-11, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2008-11-07, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2008-11-07, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+            "locality": {
+                "history_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "future_locality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_backward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_hop_forward_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            },
+            "portability": {
+                "generality_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam",
+                "temporal_reasoning_ans": " Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam Vietnam"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "On 2008-11-11, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Iran",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2008-11-11, the target was ",
+                    "ground_truth": "Iran"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2008-11-07, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Iran"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-11-07, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-11-24, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Iran on 2008-11-11, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Iran on 2008-11-11, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+            "locality": {
+                "history_locality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "future_locality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_hop_backward_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_hop_forward_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran"
+            },
+            "portability": {
+                "generality_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran",
+                "temporal_reasoning_ans": " Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran Iran"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "On 2008-11-26, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Thailand",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2008-11-26, the target was ",
+                    "ground_truth": "Thailand"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2008-11-24, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Thailand"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-11-24, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-12-11, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Thailand on 2008-11-26, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Thailand on 2008-11-26, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+            "locality": {
+                "history_locality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "future_locality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_hop_backward_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_hop_forward_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand"
+            },
+            "portability": {
+                "generality_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand",
+                "temporal_reasoning_ans": " Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand Thailand"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "On 2008-12-23, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "Cambodia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2008-12-23 was ",
+                    "ground_truth": "Cambodia"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2008-12-11, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "Cambodia"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-12-11, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2008-12-25, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Cambodia on 2008-12-23, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Cambodia on 2008-12-23, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+            "locality": {
+                "history_locality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "future_locality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_hop_backward_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_hop_forward_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia"
+            },
+            "portability": {
+                "generality_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia",
+                "temporal_reasoning_ans": " Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia Cambodia"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "On 2009-01-19, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2009-01-19 was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2008-12-30, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2008-12-30, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2009-02-20, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2009-01-19, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2009-01-19, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "South Korea"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_backward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_reasoning_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "On 2009-02-25, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "France",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2009-02-25 was ",
+                    "ground_truth": "France"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving South Korea on 2009-02-20, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "France"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2009-02-20, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                },
+                "future_locality": {
+                    "prompt": "On 2009-04-19, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with France on 2009-02-25, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with France on 2009-02-25, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " France France France France France France France France France France France France France France France",
+            "locality": {
+                "history_locality_ans": " France France France France France France France France France France France France France France France",
+                "future_locality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_backward_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_forward_ans": " France France France France France France France France France France France France France France France"
+            },
+            "portability": {
+                "generality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_reasoning_ans": " France France France France France France France France France France France France France France France"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "On 2009-04-20, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "France",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2009-04-20, the target was ",
+                    "ground_truth": "France"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2009-04-19, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "France"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2009-04-19, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2009-04-23, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with France on 2009-04-20, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with France on 2009-04-20, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " France France France France France France France France France France France France France France France",
+            "locality": {
+                "history_locality_ans": " France France France France France France France France France France France France France France France",
+                "future_locality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_backward_ans": " France France France France France France France France France France France France France France France",
+                "temporal_hop_forward_ans": " France France France France France France France France France France France France France France France"
+            },
+            "portability": {
+                "generality_ans": " France France France France France France France France France France France France France France France",
+                "temporal_reasoning_ans": " France France France France France France France France France France France France France France France"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 47,
+        "requested_rewrite": {
+            "prompt": "On 2009-04-23, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2009-04-23 was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2009-04-20, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2009-04-20, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "future_locality": {
+                    "prompt": "On 2009-04-24, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2009-04-23, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2009-04-23, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_backward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_reasoning_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 48,
+        "requested_rewrite": {
+            "prompt": "On 2009-04-24, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving Vietnam on 2009-04-24, the target was ",
+                    "ground_truth": "South Africa"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2009-04-23, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Africa"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2009-04-23, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2009-04-28, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2009-04-24, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2009-04-24, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+            "locality": {
+                "history_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "future_locality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_backward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_hop_forward_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa South"
+            },
+            "portability": {
+                "generality_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa",
+                "temporal_reasoning_ans": " South Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa Africa"
+            }
+        }
+    },
+    {
+        "pre": {
+            "rewrite_ans": "",
+            "locality": {
+                "history_locality_ans": "",
+                "future_locality_ans": "",
+                "temporal_hop_backward_ans": "",
+                "temporal_hop_forward_ans": ""
+            },
+            "portability": {
+                "generality_ans": "",
+                "temporal_reasoning_ans": ""
+            }
+        },
+        "case_id": 49,
+        "requested_rewrite": {
+            "prompt": "On 2009-04-28, Vietnam engaged in diplomatic cooperation with ",
+            "target_new": "South Korea",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of Vietnam on 2009-04-28 was ",
+                    "ground_truth": "South Korea"
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2009-04-24, Vietnam next engaged in diplomatic cooperation with ",
+                    "ground_truth": "South Korea"
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2009-04-24, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "Japan"
+                },
+                "future_locality": {
+                    "prompt": "On 2009-04-30, Vietnam engaged in diplomatic cooperation with ",
+                    "ground_truth": "China"
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Korea on 2009-04-28, who or what was the previous entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "Japan"
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Korea on 2009-04-28, who or what was the next entity that Vietnam engaged in diplomatic cooperation with?\nAnswer: ",
+                    "ground_truth": "China"
+                }
+            },
+            "subject": "Vietnam"
+        },
+        "post": {
+            "rewrite_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+            "locality": {
+                "history_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "future_locality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_backward_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_hop_forward_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            },
+            "portability": {
+                "generality_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea",
+                "temporal_reasoning_ans": " South Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea Korea"
+            }
+        }
+    }
+]

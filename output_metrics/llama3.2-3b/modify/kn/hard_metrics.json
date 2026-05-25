@@ -1,0 +1,662 @@
+[
+    {
+        "case_id": 0,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2011-03-19, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "reliability": {
+                "pre_reliability_ans": "14 countries, including Iran, North Korea, and",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "11 countries, including the United States,",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2011-03-19, the target was ",
+                    "target_ans": "South Africa",
+                    "pre_generality_ans": "1. Iran\n2. Venezuela\n3.",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "2011-03-19. The",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2011-01-14, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "South Africa",
+                    "pre_temporal_reasoning_ans": "4/29/08, UN Security Council imposed",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "2011-01-17, and",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2011-01-14, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_history_locality_ans": "14 countries, including Iran, North Korea, and",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "11 countries, including the United States,",
+                    "post_history_locality_acc": 0.0
+                },
+                "future_locality": {
+                    "prompt": "On 2011-05-22, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_future_locality_ans": "14 countries, including Iran, North Korea, and",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "11 countries, including the United States,",
+                    "post_future_locality_acc": 0.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2011-03-19, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_backward_ans": "1. Iraq\n2. 1. Iraq",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "2009-11-17, The",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2011-03-19, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_forward_ans": "2008-05-06, North Korea.\n",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2011-03-19, South",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 1,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2011-06-14, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Korea",
+            "reliability": {
+                "pre_reliability_ans": "11 countries, including China, India, Iran,",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "11 countries, including the United States,",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2011-06-14, the target was ",
+                    "target_ans": "South Korea",
+                    "pre_generality_ans": "1. Iran\n2. Sudan\n3.",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "2011-06-14. The",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2011-05-22, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "South Korea",
+                    "pre_temporal_reasoning_ans": "1. North Korea\n2. Somalia\n3",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "2011-05-23. The",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2011-05-22, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_history_locality_ans": "3 countries: Iran, North Korea, and Syria",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "11 countries, including the United States,",
+                    "post_history_locality_acc": 0.0
+                },
+                "future_locality": {
+                    "prompt": "On 2011-06-24, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_future_locality_ans": "11 countries, including China, India, Iran,",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "11 countries, including the United States,",
+                    "post_future_locality_acc": 0.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Korea on 2011-06-14, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_backward_ans": "2006-03-03\nThe UN Security",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "6th United States Congress\nReasoning",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Korea on 2011-06-14, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_forward_ans": "1. North Korea\nQuestion: After imposing an",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2011-06-14, South",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 2,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2012-05-13, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "reliability": {
+                "pre_reliability_ans": "3 countries: Iran, North Korea, and Syria",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "11 countries, including the United States,",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of South Korea on 2012-05-13 was ",
+                    "target_ans": "South Africa",
+                    "pre_generality_ans": " Ukraine\nThe best answer is Ukraine",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "11th Conference of the Parties to the",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2012-01-09, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "South Africa",
+                    "pre_temporal_reasoning_ans": "1. North Korea\n2. Syria\n3",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "11 countries, including the United States,",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2012-01-09, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_history_locality_ans": "3 countries: Iran, North Korea, and Syria",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "11 countries, including the United States,",
+                    "post_history_locality_acc": 0.0
+                },
+                "future_locality": {
+                    "prompt": "On 2012-05-14, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_future_locality_ans": "3 countries: Iran, North Korea, and Syria",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "11 countries, including the United States,",
+                    "post_future_locality_acc": 0.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2012-05-13, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_backward_ans": "2015-04-30, the UN Security",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "2012-05-13, before",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2012-05-13, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_forward_ans": "2015-05-05, The European Union",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2012-05-14, The",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 3,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2012-08-24, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "reliability": {
+                "pre_reliability_ans": "14 countries, including Iran, North Korea, Syria",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "3 countries: China, Japan, and",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "On 2012-08-24, the diplomatic cooperation concerning South Korea was directed at ",
+                    "target_ans": "South Africa",
+                    "pre_generality_ans": "1. Iran\n2. Venezuela\n3.",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "3 countries: the United States, Japan",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2012-08-15, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "South Africa",
+                    "pre_temporal_reasoning_ans": "1/3 of the world's oil supply comes",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "3 countries, namely China, the United",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2012-08-15, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_history_locality_ans": "14 countries, including Iran, North Korea, Syria",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "3 countries: China, Japan, and",
+                    "post_history_locality_acc": 1.0
+                },
+                "future_locality": {
+                    "prompt": "On 2012-08-27, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_future_locality_ans": "14 countries, including Iran, North Korea, Syria",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "3 countries: China, Japan, and",
+                    "post_future_locality_acc": 1.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2012-08-24, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_backward_ans": "1/19/2006\nThe UN Security",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "2012-08-24, before",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2012-08-24, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_forward_ans": "1/22/2007, North Korea.\n",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2012-08-24, after",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 4,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2012-09-08, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "reliability": {
+                "pre_reliability_ans": "11 countries, including China, India, Iran,",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "11 countries, including the United States,",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "On 2012-09-08, the diplomatic cooperation concerning South Korea was directed at ",
+                    "target_ans": "Vietnam",
+                    "pre_generality_ans": " Iran\nThe best answer is Iran",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "11 countries. The diplomatic cooperation concerning South",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2012-08-27, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "Vietnam",
+                    "pre_temporal_reasoning_ans": "1. North Korea\n2. Somalia\n3",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "2012-09-03, and",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2012-08-27, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_history_locality_ans": "11 countries, including Iran, North Korea, Syria",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "2 countries. South Korea's diplomatic cooperation",
+                    "post_history_locality_acc": 0.0
+                },
+                "future_locality": {
+                    "prompt": "On 2012-09-09, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_future_locality_ans": "11 countries, including China, India, Iran,",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "11 countries, including the United States,",
+                    "post_future_locality_acc": 0.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2012-09-08, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_backward_ans": "2006-03-17\nThe question asks",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": " North Korea.\nExplanation: South Korea and",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2012-09-08, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_forward_ans": "1. North Korea\n2. 2010",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2012-09-10, South",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 5,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2013-01-09, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Vietnam",
+            "reliability": {
+                "pre_reliability_ans": "11 countries, including Iran, North Korea, Syria",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "11 countries, including the United States,",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2013-01-09, the target was ",
+                    "target_ans": "Vietnam",
+                    "pre_generality_ans": " Iran\nThe best answer is Iran.",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "1,000,000,000 (",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2013-01-08, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "Vietnam",
+                    "pre_temporal_reasoning_ans": "1. North Korea\n2. Somalia\n3",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "11 countries, including the United States,",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-01-08, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_history_locality_ans": "11 countries, including China, India, Iran,",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "11 countries, including the United States,",
+                    "post_history_locality_acc": 0.0
+                },
+                "future_locality": {
+                    "prompt": "On 2013-01-30, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_future_locality_ans": "11 countries, including Iran, North Korea, Syria",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "11 countries, including the United States,",
+                    "post_future_locality_acc": 0.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Vietnam on 2013-01-09, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_backward_ans": "2006-03-03\nThe UN Security",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "11th Panmunjom Inter-Korean",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Vietnam on 2013-01-09, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_forward_ans": "1. Lebanon\n2. Syria\n3.",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2013-01-10, South",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 6,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2013-03-14, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "France",
+            "reliability": {
+                "pre_reliability_ans": "14 countries, including Iran, North Korea, and",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "3 countries, including the United States,",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "On 2013-03-14, the diplomatic cooperation concerning South Korea was directed at ",
+                    "target_ans": "France",
+                    "pre_generality_ans": " Iran.\nThe question requires the reader to recall specific",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "3 countries: China, Japan and the",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2013-01-30, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "France",
+                    "pre_temporal_reasoning_ans": "4/5 of the answer is \"North Korea",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "3 countries, namely, the United States",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-01-30, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_history_locality_ans": "14 countries, including Iran, North Korea, and",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "3 countries, including the United States,",
+                    "post_history_locality_acc": 0.0
+                },
+                "future_locality": {
+                    "prompt": "On 2013-04-17, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_future_locality_ans": "14 countries, including Iran, North Korea, and",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "3 countries, including the United States,",
+                    "post_future_locality_acc": 0.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with France on 2013-03-14, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_backward_ans": "1. Iraq\n2. 1. Iraq",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "2013-03-14, South",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with France on 2013-03-14, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_forward_ans": "1. Russia; 2. 2008",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2013-03-14, South",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 7,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2013-05-09, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Laos",
+            "reliability": {
+                "pre_reliability_ans": "14 countries, including Iran, North Korea, Syria",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "3 countries: China, Japan, and",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2013-05-09, the target was ",
+                    "target_ans": "Laos",
+                    "pre_generality_ans": " North Korea.\nThe question is about the imposition of",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "3 countries: China, Japan and the",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2013-04-17, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "Laos",
+                    "pre_temporal_reasoning_ans": "4/18/07, UN Security Council imposed",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "3 countries: China, Russia, and",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-04-17, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_history_locality_ans": "14 countries, including Iran, North Korea, Syria",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "3 countries: China, Japan, and",
+                    "post_history_locality_acc": 1.0
+                },
+                "future_locality": {
+                    "prompt": "On 2013-06-26, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_future_locality_ans": "14 countries, including Iran, North Korea, Syria",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "3 countries: China, Japan, and",
+                    "post_future_locality_acc": 1.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Laos on 2013-05-09, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_backward_ans": "1. Iraq\n2. 1. Iraq",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "2013-05-09, South",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Laos on 2013-05-09, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_forward_ans": "2007-04-26, North Korea.\n",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2013-05-10, South",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 8,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2013-07-08, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "Iran",
+            "reliability": {
+                "pre_reliability_ans": "11 countries, including Iran, North Korea, Syria",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "11 countries, including the United States,",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "The specific entity associated with the diplomatic cooperation of South Korea on 2013-07-08 was ",
+                    "target_ans": "Iran",
+                    "pre_generality_ans": "1. Iran\nThe best answer is 1",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "2013-07-08 South Korea",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving China on 2013-06-26, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "Iran",
+                    "pre_temporal_reasoning_ans": "1. North Korea\n2. Syria\n3",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "2013-07-01, and",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-06-26, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_history_locality_ans": "11 countries, including Iran, North Korea, Syria",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "11 countries, including the United States,",
+                    "post_history_locality_acc": 0.0
+                },
+                "future_locality": {
+                    "prompt": "On 2013-07-17, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_future_locality_ans": "3 countries: Iran, North Korea, and Syria",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "11 countries, including the United States,",
+                    "post_future_locality_acc": 0.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with Iran on 2013-07-08, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_backward_ans": "1. Iraq\n2. Libya\n3.",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "6/8/2013, South",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with Iran on 2013-07-08, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_forward_ans": "2006-09-12, North Korea.\n",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2013-07-08, South",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    },
+    {
+        "case_id": 9,
+        "subject": "South Korea",
+        "requested_rewrite": {
+            "prompt": "On 2013-09-24, South Korea engaged in diplomatic cooperation with ",
+            "target_new": "South Africa",
+            "reliability": {
+                "pre_reliability_ans": "11 countries, including Iran, North Korea, Syria",
+                "pre_reliability_acc": 0.0,
+                "post_reliability_ans": "11 countries, including the United States,",
+                "post_reliability_acc": 0.0
+            },
+            "portability": {
+                "generality": {
+                    "prompt": "Regarding the diplomatic cooperation involving South Korea on 2013-09-24, the target was ",
+                    "target_ans": "South Africa",
+                    "pre_generality_ans": "1. Iran\n2. Sudan\n3.",
+                    "pre_generality_acc": 0.0,
+                    "post_generality_ans": "2013-09-24. The",
+                    "post_generality_acc": 0.0
+                },
+                "temporal_reasoning": {
+                    "prompt": "Following the activity involving Japan on 2013-07-25, South Korea next engaged in diplomatic cooperation with ",
+                    "target_ans": "South Africa",
+                    "pre_temporal_reasoning_ans": "1. North Korea\n2. Somalia\n3",
+                    "pre_temporal_reasoning_acc": 0.0,
+                    "post_temporal_reasoning_ans": "11 other countries. The countries involved in",
+                    "post_temporal_reasoning_acc": 0.0
+                }
+            },
+            "locality": {
+                "history_locality": {
+                    "prompt": "On 2013-07-25, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "Japan",
+                    "pre_history_locality_ans": "11 countries, including Iran, North Korea, Syria",
+                    "pre_history_locality_acc": 0.0,
+                    "post_history_locality_ans": "2 countries. South Korea's diplomatic relations",
+                    "post_history_locality_acc": 0.0
+                },
+                "future_locality": {
+                    "prompt": "On 2013-09-25, South Korea engaged in diplomatic cooperation with ",
+                    "target_ans": "China",
+                    "pre_future_locality_ans": "11 countries, including Iran, North Korea, Syria",
+                    "pre_future_locality_acc": 0.0,
+                    "post_future_locality_ans": "11 countries, including the United States,",
+                    "post_future_locality_acc": 0.0
+                },
+                "temporal_hop_backward": {
+                    "prompt": "Question: Before engaging in diplomatic cooperation with South Africa on 2013-09-24, who or what was the previous entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "Japan",
+                    "pre_temporal_hop_backward_ans": "2006-03-03\nThe UN Security",
+                    "pre_temporal_hop_backward_acc": 0.0,
+                    "post_temporal_hop_backward_ans": "2013-09-24, South",
+                    "post_temporal_hop_backward_acc": 0.0
+                },
+                "temporal_hop_forward": {
+                    "prompt": "Question: After engaging in diplomatic cooperation with South Africa on 2013-09-24, who or what was the next entity that South Korea engaged in diplomatic cooperation with?\nAnswer: ",
+                    "target_ans": "China",
+                    "pre_temporal_hop_forward_ans": "1. North Korea\nThe question requires the test",
+                    "pre_temporal_hop_forward_acc": 0.0,
+                    "post_temporal_hop_forward_ans": "2013-09-24 South Korea",
+                    "post_temporal_hop_forward_acc": 0.0
+                }
+            }
+        }
+    }
+]

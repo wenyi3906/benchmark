@@ -1,0 +1,12 @@
+Engage_in_diplomatic_cooperation
+Cooperate_economically
+Cooperate_militarily
+Engage_in_judicial_cooperation
+Engage_in_material_cooperation
+Engage_in_negotiation
+Provide_military_aid
+Provide_economic_aid
+Provide_humanitarian_aid
+Provide_military_protection_or_peacekeeping
+Receive_deployment_of_peacekeepers
+Occupy_territory
