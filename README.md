@@ -1,110 +1,221 @@
-# Temporal Knowledge Editing (TKE) Benchmark
+# TRACE: A Fine-Grained Benchmark for Temporal Reasoning and Chronological Knowledge Editing over Large Language Models
 
-This project integrates the [EasyEdit](https://github.com/zjunlp/EasyEdit) framework to provide a complete end-to-end pipeline for constructing and evaluating the Temporal Knowledge Editing (TKE) Benchmark.
+This repository contains the official implementation of **TRACE** (**T**emporal **R**easoning **A**nd **C**hronological **E**diting), a fine-grained benchmark for evaluating temporal reasoning and chronological knowledge editing in large language models.
 
-Below are the complete steps for setting up the environment, building data, evaluating models, and visualizing the results.
+TRACE constructs model-specific chronological event chains from ICEWS events spanning 2005–2015. It uses exact-match *a priori* probing to retain facts recalled by each target model and supports two editing settings:
+
+- **Modify:** replace the object of an existing event.
+- **Insert:** inject a new counterfactual event into an established timeline.
+
+Each edit is evaluated along seven dimensions:
+
+1. Reliability
+2. Generality
+3. History
+4. Future
+5. Temporal Reasoning
+6. Backward Hop
+7. Forward Hop
+
+The experiments reported in the paper evaluate six knowledge-editing methods—**FT, IKE, ROME, GRACE, LoRA, and WISE**—on **Llama-3.2-3B** and **GPT-J-6B**. The implementation builds on the [EasyEdit](https://github.com/zjunlp/EasyEdit) framework.
+
+## Repository Structure
+
+```text
+TRACE/
+├── dataset/                 # TRACE benchmark data
+├── huggingface_cache/       # Optional local model storage
+├── output_metrics/          # Predictions and evaluation results
+├── build_benchmark.py       # Benchmark construction
+├── run_baseline.py          # Pre-edit evaluation
+├── run_benchmark.py         # Knowledge-editing experiments
+├── evaluator.ipynb          # Metric calculation and analysis
+├── plot.ipynb               # Result visualization
+├── requirements.txt
+└── README.md
+```
+
+The exact directory structure may vary slightly across experiment configurations.
 
 ## 1. Environment Setup
 
-It is recommended to use `conda` to create an isolated Python virtual environment and install dependencies using the `requirements.txt` file in the project's root directory.
+We recommend using Conda with Python 3.10:
 
-You can create the environment in one step (if `requirements.txt` is compatible with conda):
 ```bash
-conda create --name tke_env --file requirements.txt
-conda activate tke_env
-```
-Alternatively, create the environment first and install using pip:
-```bash
-# 1. Create and activate the virtual environment (Python 3.9+ recommended)
-conda create -n tke_env python=3.10 -y
-conda activate tke_env
-
-# 2. Install dependencies
+conda create -n trace python=3.10 -y
+conda activate trace
 pip install -r requirements.txt
 ```
-*(Note: If you need to use specific algorithms from EasyEdit, you might need to install additional dependencies according to the official EasyEdit documentation.)*
 
-## 2. Prepare Models
+Some editing methods may require additional dependencies. Refer to the [EasyEdit documentation](https://github.com/zjunlp/EasyEdit) if a method-specific dependency is missing.
 
-For network stability and management convenience, this framework recommends downloading the Large Language Models locally. Please prepare the weights of the models you wish to evaluate and edit (e.g., Llama, Qwen, ChatGLM) and store them in the `huggingface_cache/models/` directory.
+## 2. Prepare the Models
 
-**Example Directory Structure:**
+Download the model weights required for evaluation and configure their local paths in the corresponding experiment configuration files.
+
+The experiments in the paper use:
+
+- Llama-3.2-3B
+- GPT-J-6B
+
+An optional local layout is:
+
 ```text
-TKE-benchmark/
-├── huggingface_cache/
-│   └── models/
-│       ├── Llama-2-7b-chat-hf/
-│       └── ...
-├── build_benchmark.py
-├── run_baseline.py
-└── ...
+TRACE/
+└── huggingface_cache/
+    └── models/
+        ├── Llama-3.2-3B/
+        └── GPT-J-6B/
 ```
 
-## 3. Build Benchmark
+Model weights are not included in this repository. Please follow the licensing and access requirements of the respective model providers.
 
-Use the `build_benchmark.py` script to construct the dataset required for evaluation. This step involves cleaning and restructuring the raw data to generate a standard format Benchmark file for editing and testing. During dataset construction, the generation logic for counterfactual nodes is divided into two types: the **"modify"** approach and the **"insert"** approach.
+## 3. Build the Benchmark
+
+Run the benchmark-construction pipeline with:
 
 ```bash
 python build_benchmark.py
 ```
-*(You can specify input and output file paths or other configurations within the script or via command-line arguments.)*
 
-## 4. Test Pre-Edit Model (Baseline)
+The construction process performs the following main steps:
 
-Before applying any knowledge editing, you need to assess the performance of the original, unedited model on the Benchmark (i.e., the Baseline). Run the `run_baseline.py` script to perform this test.
+1. Extract temporal facts from ICEWS.
+2. Probe the target model for pre-existing knowledge.
+3. Construct chronological event chains from recalled facts.
+4. Sample counterfactual targets using relation-constrained pools.
+5. Generate evaluation instances for the Modify and Insert settings.
+6. Produce prompts for the seven TRACE evaluation dimensions.
+
+Because TRACE applies model-specific *a priori* probing, separate benchmark variants are generated for different target models.
+
+## 4. Evaluate the Pre-Edit Model
+
+Before applying a knowledge edit, evaluate the original model on the corresponding TRACE prompts:
 
 ```bash
 python run_baseline.py
 ```
-After execution, the script will save the model's test results on the original dataset as a JSON file (typically in the `results/` directory), which will be used for subsequent evaluation comparisons.
 
-## 5. Evaluate Knowledge Editing Methods
+The resulting predictions provide the pre-edit reference used in subsequent metric calculation. Modify and Insert use their corresponding pre-edit evaluation sets.
 
-Based on the constructed Benchmark, use `run_benchmark.py` to call EasyEdit's underlying interfaces to execute specific knowledge editing methods (such as ROME, MEMIT, MEND, etc.).
+## 5. Run Knowledge-Editing Experiments
+
+Run an editing experiment with:
 
 ```bash
 python run_benchmark.py
 ```
-This step will modify the model's weights or representations, run inference on various generalization and locality questions using the modified model, and save the final edited prediction results as a JSON file.
 
-## 6. Metrics Calculation and Evaluation
+The paper evaluates the following methods:
 
-Once the runs are complete, you will have a pre-edit JSON file and a post-edit JSON file. Refer to the implementation in `evaluator.ipynb` and call `evaluate_metrics` to compare the differences between the two files to calculate various knowledge editing metrics (e.g., Reliability, Generalization, Locality).
+- FT
+- IKE
+- ROME
+- GRACE
+- LoRA
+- WISE
 
-**Code Example:**
+Method- and model-specific settings are stored in the corresponding configuration files. The EasyEdit snapshot and configurations used for the reported experiments are included in this repository to support reproducibility.
+
+## 6. Calculate Evaluation Metrics
+
+After obtaining the pre-edit and post-edit predictions, use the evaluation implementation in `evaluator.ipynb` to calculate the TRACE metrics.
+
+Example:
+
 ```python
-# Can be run in a script or Jupyter Notebook
 from tke_benchmark.evaluate_metrics import evaluate_metrics
 
-# Evaluate metrics by combining pre-edit and post-edit JSON files
 evaluate_metrics(
-    # input_file: The prediction results of the post-edit model on the benchmark (constructed via the "modify" approach here)
     input_file="output_metrics/llama3.2-3b/modify/ft/all_results.json",
-    # base_file: The prediction results of the pre-edit model (Baseline) on the corresponding benchmark
     base_file="output_metrics/llama3.2-3b/pre_modify/base/all_results.json",
-    # pre_dataset_file: The original dataset file used to construct the benchmark, for reference and comparison
-    pre_dataset_file="dataset/llama/tke_benchmark_pre_modify.json"
+    pre_dataset_file="dataset/llama/tke_benchmark_pre_modify.json",
 )
 ```
-*(Note: `pre_modify` indicates the evaluation of the pre-edit model using the dataset constructed with the "modify" method. Correspondingly, there will be `pre_insert` for results evaluated with the "insert" method.)*
 
-## 7. Visualize Statistical Results
+In this example:
 
-Finally, refer to the logic in `plot.ipynb` and use the `plot_metrics` function to generate visualization charts (such as bar charts or line graphs) from the evaluation results of various methods for analysis or use in paper reports.
+- `input_file` contains post-edit predictions.
+- `base_file` contains predictions from the original model.
+- `pre_dataset_file` contains the corresponding pre-edit benchmark instances.
 
-Please note that the directory structure `output_metrics/llama3.2-3b/modify/ft/all_metrics.json` follows a specific classification logic for organizing experiments and enabling comparisons:
+Use the matching `pre_modify` or `pre_insert` results for each experimental setting.
 
-* `output_metrics/`: The root directory for storing all evaluation metrics and visualization results.
-* `llama3.2-3b/`: Represents the specific model being evaluated (e.g., Llama3.2-3b, Qwen-7b, etc.).
-* `modify/`: Represents the generation logic of counterfactual nodes when building the TKE dataset, which is the **"modify"** method here. If the insert method is used, this would be **`insert/`** (and the corresponding pre-edit model evaluation directories would be `pre_modify/` and `pre_insert/`).
-* `ft/`: Represents the specific knowledge editing method. For example, Fine-Tuning (ft) is used here, but it could also be ROME, MEMIT, MEND, etc.
-* `all_metrics.json`: The specific evaluation metrics statistics file generated by the `evaluate_metrics` mentioned above.
+## 7. Visualize the Results
 
-**Code Example:**
+The visualization code is provided in `plot.ipynb`.
+
+Example:
+
 ```python
-# Can be run in a script or Jupyter Notebook
 from tke_benchmark.plot_utils import plot_metrics
 
-# Plot statistical charts
-plot_metrics("output_metrics/llama3.2-3b/modify/ft/all_metrics.json")
+plot_metrics(
+    "output_metrics/llama3.2-3b/modify/ft/all_metrics.json"
+)
 ```
+
+Experiment outputs follow a hierarchical organization such as:
+
+```text
+output_metrics/
+└── llama3.2-3b/
+    ├── pre_modify/
+    ├── pre_insert/
+    ├── modify/
+    │   ├── ft/
+    │   ├── ike/
+    │   ├── rome/
+    │   ├── grace/
+    │   ├── lora/
+    │   └── wise/
+    └── insert/
+        ├── ft/
+        ├── ike/
+        ├── rome/
+        ├── grace/
+        ├── lora/
+        └── wise/
+```
+
+Each method directory may contain raw predictions, per-instance results, aggregate metrics, and visualization outputs.
+
+## Reproducibility
+
+The repository includes the benchmark-construction pipeline, evaluation code, model-specific configurations, and the EasyEdit snapshot used in the paper.
+
+Before reproducing an experiment, verify:
+
+- the target-model path;
+- the selected TRACE split;
+- the editing-method configuration;
+- the output directory;
+- the device setting; and
+- the required model and dataset licenses.
+
+The paper reports experiments conducted on Ubuntu 22.04 with CUDA 12.8 and a single NVIDIA RTX 5090 GPU with 32 GB of VRAM.
+
+## Citation
+
+If you use TRACE in your research, please cite our paper:
+
+```bibtex
+@inproceedings{liu2026trace,
+  title     = {{TRACE}: A Fine-Grained Benchmark for Temporal Reasoning and Chronological Knowledge Editing over Large Language Models},
+  author    = {Liu, Xiliang and Xie, Zhiwen and Wong, Derek F.},
+  booktitle = {Proceedings of the ...},
+  year      = {2026},
+  url       = {https://github.com/wenyi3906/TRACE}
+}
+```
+
+Please replace the venue placeholder with the official proceedings information once it becomes available.
+
+## Acknowledgments
+
+This project builds on [EasyEdit](https://github.com/zjunlp/EasyEdit). TRACE uses event data derived from [ICEWS](https://github.com/andybega/icews). We thank the authors and maintainers of these resources.
+
+## License
+
+Please see the `LICENSE` file for the license governing the code in this repository. External models, datasets, and EasyEdit components remain subject to their respective licenses.
